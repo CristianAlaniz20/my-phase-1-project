@@ -1,0 +1,235 @@
+{
+    "leagues": [
+        {
+            "id": 1,
+            "name": "La Liga",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/LaLiga_logo_2023.svg/2048px-LaLiga_logo_2023.svg.png",
+            "country": "Spain",
+            "top3Teams": [
+                {
+                    "team": "Real Madrid",
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg.png",
+                    "founded": 1902
+                }, 
+                {
+                    "team": "Girona",
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/7/7a/Girona_FC_new_logo.png",
+                    "founded": 1930
+                }, 
+                {
+                    "team": "FC Barcelona",
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1200px-FC_Barcelona_%28crest%29.svg.png",
+                    "founded": 1899
+                }
+            ],    
+            "top3Goalscorers": [
+                {
+                    "name": "Jude Bellingham",
+                    "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQiiuXPTVg_GnOA2oC84BnJG29LkmDXs3X15Dl5gTT9ZgQd1gUO-_0P3FvOXlEPiNecOSdjCXbvwSjeUD5Xv7e8NEoE9RPMktvXJg",
+                    "club": "Real Madrid",
+                    "nationality": "England",
+                    "goals": 13
+                },
+                {
+                    "name": "Alvaro Morata",
+                    "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSzLUYnpvHePJHfG1tFiRJnDVTTw5Pn6Dsm5gg85gdpOMubBC7EPzagHR-jA1ipF856Pit2ppix43vKtwEiOt6-58Udn4__gL3D5Q",
+                    "club": "Atletico Madrid",
+                    "nationality": "Spain",
+                    "goals": 12
+                },
+                {
+                    "name": "Borja Mayoral",
+                    "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTlTRQA00Az5JdIPnsmQiCfjXojimHJU3pJIwP9PVm9thxB3hw5w2qyUhdSW-3hTHvcliuIEdJ2qRNRMCKjHf3K6aMspilLm7iRE74",
+                    "club": "Getafe FC",
+                    "nationality": "Spain",
+                    "goals": 12
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Premier League",
+            "logo": "https://a1.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F23.png",
+            "country": "England",
+            "top3Teams": [
+                {
+                    "team": "Liverpool FC",
+                    "badge": "https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515361_10542.jpg",
+                    "founded": 1892
+                }, 
+                {
+                    "team": "Aston Villa FC",
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Aston_Villa_logo.svg/1200px-Aston_Villa_logo.svg.png",
+                    "founded": 1874
+                }, 
+                {
+                    "team": "Manchester City FC",
+                    "badge": "https://cdn.punchng.com/wp-content/uploads/2023/02/09160109/Man-City-ogo.jpg",
+                    "founded": 1880
+                }
+            ],    
+            "top3Goalscorers": [
+                {
+                    "name": "Erling Haaland",
+                    "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTZi214DS2tos__MHXdINFZYNfneDe3BCWDusOzaqbCmaKBykuivS_00LtcuHend0HIcViVwp1Tn1UtuDmQR9OS6ldzN-fpcCe8UQ",
+                    "club": "Manchester City FC",
+                    "nationality": "Norway",
+                    "goals": 14
+                },
+                {
+                    "name": "Mohamed Salah",
+                    "picture": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQhnC0f5Oin-hID_3pMlP7O0wMi_6UxNhv8573pj1pUOLdxQbM0GSuzwRKAcss_sMUSmODTPMMYlQy8EzV0_UMJ2nfWEWYRaSo3How",
+                    "club": "Liverpool FC",
+                    "nationality": "Egypt",
+                    "goals": 14
+                },
+                {
+                    "name": "Dominic Solanke",
+                    "picture": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTHqWMBVHp2CL5itwv39rTQbfNAONgjoRZ5U_xcZMx2t3CeJ694fPphL20_TH3dmBqvL6S0TvoF5ijm9E1cDi2rHZHmE4NUkYiLJlc",
+                    "club": "Bournemouth",
+                    "nationality": "England",
+                    "goals": 12
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Bundesliga",
+            "logo": "https://cdn.dribbble.com/userupload/8774586/file/original-221d89b1bd28922ab98d0302464ccdca.png?resize=400x0",
+            "country": "Germany",
+            "top3Teams": [
+                {
+                    "team": "Bayer 04 Leverkusen",
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Bayer_04_Leverkusen_logo.svg/640px-Bayer_04_Leverkusen_logo.svg.png",
+                    "founded": 1904
+                }, 
+                {
+                    "team": "FC Bayern Munich",
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/1200px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png",
+                    "founded": 1900
+                }, 
+                {
+                    "team": "VfB Stuttgart",
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/VfB_Stuttgart_1893_Logo.svg/1200px-VfB_Stuttgart_1893_Logo.svg.png",
+                    "founded": 1893
+                }
+            ],    
+            "top3Goalscorers": [
+                {
+                    "name": "Harry Kane",
+                    "picture": "https://img.a.transfermarkt.technology/portrait/big/132098-1700211169.jpg?lm=1",
+                    "club": "FC Bayern Munich",
+                    "nationality": "England",
+                    "goals": 21
+                },
+                {
+                    "name": "Serhou Guirassy",
+                    "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTUUoVYv-kVTG0Rpz0OSho1um6rbLu5MRZwP3cjYr2g8CGxaDasAsUhVlPSF-cWUYUvhBhv1mtLUo6E3ZCtcZqma1Ws5qKzWQoR0kM",
+                    "club": "VfB Stuttgart",
+                    "nationality": "Guinea",
+                    "goals": 17
+                },
+                {
+                    "name": "Lois Openda",
+                    "picture": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTXH7jBccwuyQvVhDqOjwaAMwB_x63bu9xABREnLem2yQZKoGe8_pIRJuokYfuxyB2Gm3lE7IDNFNa7ahWAOVUTPKXtKSb7eriQug",
+                    "club": "RB Leipzig",
+                    "nationality": "Belgium",
+                    "goals": 11
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Ligue 1",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Ligue1_Uber_Eats_logo.png/409px-Ligue1_Uber_Eats_logo.png",
+            "country": "France",
+            "top3Teams": [
+                {
+                    "team": "Paris Saint-Germain",
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/1200px-Paris_Saint-Germain_F.C..svg.png",
+                    "founded": 1970
+                }, 
+                {
+                    "team": "OGC Nice",
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/OGC_Nice_logo.svg/1200px-OGC_Nice_logo.svg.png",
+                    "founded": 1904
+                }, 
+                {
+                    "team": "AS Monaco",
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/LogoASMonacoFC2021.svg/1200px-LogoASMonacoFC2021.svg.png",
+                    "founded": 1924
+                }
+            ],    
+            "top3Goalscorers": [
+                {
+                    "name": "Kylian Mbappe",
+                    "picture": "https://b.fssta.com/uploads/application/soccer/headshots/40670.vresize.350.350.medium.91.png",
+                    "club": "Paris Saint-Germain",
+                    "nationality": "France",
+                    "goals": 18
+                },
+                {
+                    "name": "Wissam Ben Yedder",
+                    "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSPmdgKtdrRHXdtKqVYO0i8QDUv6LK8w_0bBnOyBrb6w6CenyrLEPzbheTcY7Y3S8orCIcgzgvc6kF7E01mpTL2mfwnT-tmHsROAg",
+                    "club": "AS Monaco",
+                    "nationality": "France",
+                    "goals": 8
+                },
+                {
+                    "name": "Akor Adams",
+                    "picture": "https://img.a.transfermarkt.technology/portrait/big/607034-1702663135.JPG?lm=1",
+                    "club": "Montpellier Herault SC",
+                    "nationality": "Nigeria",
+                    "goals": 7
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Seria A",
+            "logo": "https://1000logos.net/wp-content/uploads/2019/01/Italian-Serie-A-TIM-Logo.png",
+            "country": "Italy",
+            "top3Teams": [
+                {
+                    "team": "Inter Milan",
+                    "badge": "https://cdn.vox-cdn.com/thumbor/2fULY-8xfUKZKPV8Pt1Q1mzRzEA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22407687/09ABCFC9_621E_4190_801B_92EDE17085BD.jpeg",
+                    "founded": 1908
+                }, 
+                {
+                    "team": "Juventus",
+                    "badge": "https://creativereview.imgix.net/content/uploads/2017/01/Juve-sq.jpg",
+                    "founded": 1897
+                }, 
+                {
+                    "team": "AC Milan",
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/640px-Logo_of_AC_Milan.svg.png",
+                    "founded": 1899
+                }
+            ],    
+            "top3Goalscorers": [
+                {
+                    "name": "Lautaro Martinez",
+                    "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSqxjC9I0oT_k6XxZvu88b_E2RUyPCiWiw338qgeHxAQlhNMqRzO7U2SbuwzRNw2Aw6YVR0r0eTZmPOd98xFJUjUUQ8ZoD7Xy27HQ",
+                    "club": "Inter Milan",
+                    "nationality": "Argentina",
+                    "goals": 16
+                },
+                {
+                    "name": "Domenico Berardi",
+                    "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTByiO4kp4ovKNnv69tUIACn-_qAu5tbVow4iFHoG4DEnqnqlie2Q61J5gm8q680-qC7rhTg7nYeHQXFToiruQQ-7J6rAj7fPHESw",
+                    "club": "US Sassuolo Calcio",
+                    "nationality": "Italy",
+                    "goals": 9
+                },
+                {
+                    "name": "Olivier Giroud",
+                    "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTupSGTM2JdBWUhIyJTHj-F_Wz3Rp76mCGoM-f8wfJICo3J-vtTD_q7Lpg76Tx9oqis2iVTINaVgYhrdNSb7fpwukmmiTZW-CcHVg",
+                    "club": "AC Milan",
+                    "nationality": "France",
+                    "goals": 9
+                }
+            ]
+        }
+
+    ]
+}
