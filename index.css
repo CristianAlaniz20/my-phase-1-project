@@ -1,5 +1,31 @@
 body {
-    background: black;
-    color: white;
-  }
+  background: black;
+  color: white;
+}
 
+#title {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+#league-container {
+  text-align: center;
+  height: 400px;
+  width: auto;
+}
+
+.league-div {
+  text-align: center;
+  border: 1px white;
+  display: inline-block;
+  width: 360px;
+  height: 350px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.league-img {
+  height: 200px;
+  width: auto; 
+}
