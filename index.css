@@ -1,12 +1,12 @@
 body {
-  background: black;
-  color: white;
+  background: white;
+  color: black;
+  font: medium "Arial", sans-serif;
 }
 
 #title {
   text-align: center;
   padding-top: 50px;
-  padding-bottom: 10px;
 }
 
 #league-container {
@@ -28,4 +28,8 @@ body {
 .league-img {
   height: 200px;
   width: auto; 
+}
+
+.league-country {
+  padding: 25px;
 }
