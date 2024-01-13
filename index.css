@@ -33,3 +33,15 @@ body {
 .league-country {
   padding: 25px;
 }
+
+.team-div {
+  border: 1px solid black;
+  text-align: center;
+  height: 225px;
+  width: 150px;
+}
+
+.team-badge {
+  height: 100px;
+  width: auto;
+}

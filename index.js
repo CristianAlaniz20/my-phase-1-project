@@ -48,6 +48,7 @@ function createLeagueDivSubElements(div) {
     //div.appendChild(img)
 }
 
+//fetches top 3 teams from each league and makes a div for each team
 function createTeamDiv() {
     fetch("http://127.0.0.1:3000/leagues")
     .then(response => response.json())
@@ -55,16 +56,21 @@ function createTeamDiv() {
         data.forEach(element => {
             const teamDivContainer = document.getElementById("team-container")
             const teamsArray = element.top3Teams;
-            const teamDiv = document.createElement("div")
-            teamDiv.classList.add("team-div")
-            iterateThroughTeamsArray(teamsArray, teamDiv)
-            teamDivContainer.appendChild(teamDiv)
+            const leagueTeamsDiv = document.createElement("div")
+            leagueTeamsDiv.classList.add(`${element.country}-div`)
+            debugger
+            iterateThroughTeamsArray(teamsArray, leagueTeamsDiv)
+            teamDivContainer.appendChild(leagueTeamsDiv)
+            debugger
         })
     })
 }
 
+//iterates through array, makes subelements for each element, and appends them to a team div
 function iterateThroughTeamsArray(array, div) {
     array.forEach(teamObj => {
+        const teamDiv = document.createElement("div")
+        teamDiv.classList.add("team-div")
         const teamName = document.createElement("h4")
         teamName.classList.add("team-name")
         teamName.textContent = teamObj.team
@@ -73,14 +79,11 @@ function iterateThroughTeamsArray(array, div) {
         teamBadge.classList.add("team-badge")
         const foundedYear = document.createElement("p")
         foundedYear.classList.add("founded-year")
-        foundedYear.textContent = teamObj.founded
-        
+        foundedYear.textContent = `founded: ${teamObj.founded}`
+
+//puts all team div subelements in an array to appendChild each one        
         const teamSubElementsArray = [teamName, teamBadge, foundedYear]
-        teamSubElementsArray.forEach(element => div.appendChild(element))
+        teamSubElementsArray.forEach(element => teamDiv.appendChild(element))
+        div.appendChild(teamDiv)
     })
 }
-
-//assign an element to top3teams of each element
-//iterate through top3teams array (forEach)
-//make a div with with an id and class for each item
-//make subelements for the div made
