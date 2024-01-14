@@ -41,6 +41,14 @@ body {
   padding: 25px;
 }
 
+
+tr, td {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+/*
 .team-div {
   border: 1px solid white;
   text-align: center;
@@ -52,3 +60,4 @@ body {
   height: 100px;
   width: auto;
 }
+*/

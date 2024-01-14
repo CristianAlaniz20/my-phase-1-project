@@ -5,44 +5,112 @@
             "name": "La Liga",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/LaLiga_logo_2023.svg/2048px-LaLiga_logo_2023.svg.png",
             "country": "Spain",
-            "top3Teams": [
+            "table": [
                 {
-                    "team": "Real Madrid",
-                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg.png",
-                    "founded": 1902
-                }, 
-                {
-                    "team": "Girona",
-                    "badge": "https://upload.wikimedia.org/wikipedia/en/7/7a/Girona_FC_new_logo.png",
-                    "founded": 1930
-                }, 
-                {
-                    "team": "FC Barcelona",
                     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1200px-FC_Barcelona_%28crest%29.svg.png",
-                    "founded": 1899
+                    "team": "FC Barcelona",
+                    "mp": "38",
+                    "w": "28",
+                    "l": "6",
+                    "d": "4",
+                    "gf": "70",
+                    "ga": "20",
+                    "gd": "50",
+                    "pts": "88"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg.png",
+                    "team": "Real Madrid",
+                    "mp": "38",
+                    "w": "24",
+                    "l": "8",
+                    "d": "6",
+                    "gf": "75",
+                    "ga": "36",
+                    "gd": "39",
+                    "pts": "78"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Atletico_Madrid_2017_logo.svg/1200px-Atletico_Madrid_2017_logo.svg.png",
+                    "team": "Atletico Madrid",
+                    "mp": "38",
+                    "w": "23",
+                    "l": "7",
+                    "d": "8",
+                    "gf": "70",
+                    "ga": "33",
+                    "gd": "37",
+                    "pts": "77"
+                }, 
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Real_Sociedad_logo.svg/1200px-Real_Sociedad_logo.svg.png",
+                    "team": "Real Sociedad",
+                    "mp": "38",
+                    "w": "21",
+                    "l": "9",
+                    "d": "8",
+                    "gf": "51",
+                    "ga": "35",
+                    "gd": "16",
+                    "pts": "71"
+                }, 
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Villarreal_CF_logo-en.svg/1200px-Villarreal_CF_logo-en.svg.png",
+                    "team": "Villareal",
+                    "mp": "38",
+                    "w": "19",
+                    "l": "12",
+                    "d": "7",
+                    "gf": "59",
+                    "ga": "40",
+                    "gd": "19",
+                    "pts": "64"
                 }
             ],    
             "top3Goalscorers": [
                 {
-                    "name": "Jude Bellingham",
-                    "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQiiuXPTVg_GnOA2oC84BnJG29LkmDXs3X15Dl5gTT9ZgQd1gUO-_0P3FvOXlEPiNecOSdjCXbvwSjeUD5Xv7e8NEoE9RPMktvXJg",
+                    "name": "Robert Lewandowski",
+                    "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQEgG-fWVHGoCPg_zPnNGLqE-_oG_JAws6hzY35vLNDHFCAzTr9j_8UitxXTp5-SZegavhFj4knXMNnMs8lBEZab_gondOYBfGuyg",
+                    "club": "FC Barcelona",
+                    "nationality": "Poland",
+                    "goals": 23
+                },
+                {
+                    "name": "Karim Benzema",
+                    "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRjyE3bd3D3y7cCYvrsdEjlZt3HLivnb1C6qLqeIruDiywJ9c0LfSahvBKd9dl2a6ydgnuHLd07WPbczyGcZNFaBi665Drsk-yegg",
                     "club": "Real Madrid",
-                    "nationality": "England",
-                    "goals": 13
+                    "nationality": "France",
+                    "goals": 19
                 },
                 {
-                    "name": "Alvaro Morata",
-                    "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSzLUYnpvHePJHfG1tFiRJnDVTTw5Pn6Dsm5gg85gdpOMubBC7EPzagHR-jA1ipF856Pit2ppix43vKtwEiOt6-58Udn4__gL3D5Q",
+                    "name": "Joselu",
+                    "picture": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRXQrHpN0OqdQtdGGbTGH6dzZYbDa6S8CkEXiQSwOns57gJLW2o8mt13XQcwUmDGHeC3xPXgS3BBkZuugZyhtpZMftuvPMzK2TVVA",
+                    "club": "Espanyol",
+                    "nationality": "Spain",
+                    "goals": 16
+                }
+            ],
+            "top3Assisters": [
+                {
+                    "name": "Antoine Griezman",
+                    "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQnJzHmd1Nxf6s01YNVBNVwRbHatMktygBKtAzubDuS6ddywQiPPwn8lypA6WbBJGTr-OnfMBJTlkfeCc-IaRjqA12m6hT5k0YcMw",
                     "club": "Atletico Madrid",
-                    "nationality": "Spain",
-                    "goals": 12
+                    "nationality": "France",
+                    "assists": 16
                 },
                 {
-                    "name": "Borja Mayoral",
-                    "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTlTRQA00Az5JdIPnsmQiCfjXojimHJU3pJIwP9PVm9thxB3hw5w2qyUhdSW-3hTHvcliuIEdJ2qRNRMCKjHf3K6aMspilLm7iRE74",
-                    "club": "Getafe FC",
+                    "name": "Mikel Merino",
+                    "picture": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQY4n-CiCCY8-5R9HqRoywNmLXseQ1H7kZusstyThCKTfRiwmHTqW5hY3GW1vrOBuLM9A5_P28JSxsRwH2LpkVizTgCC5QsQIp2Aw",
+                    "club": "Real Sociedad",
                     "nationality": "Spain",
-                    "goals": 12
+                    "assists": 9
+                },
+                {
+                    "name": "Vinicius Junior",
+                    "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQgZZJYsd-CO_V7Hpxrrpdp3EtVBPBL7ytBXZdlCmk7NaUtOTB-0lf9U2J3ZXOc6YA0YVHaWnnnWmGAQYvou15Acsi2XFvcdYr90A",
+                    "club": "Real Madrid",
+                    "nationality": "Brazil",
+                    "goals": 16
                 }
             ]
         },
@@ -51,43 +119,111 @@
             "name": "Premier League",
             "logo": "https://a1.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F23.png",
             "country": "England",
-            "top3Teams": [
+            "table": [
                 {
-                    "team": "Liverpool FC",
-                    "badge": "https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515361_10542.jpg",
-                    "founded": 1892
-                }, 
-                {
-                    "team": "Aston Villa FC",
-                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Aston_Villa_logo.svg/1200px-Aston_Villa_logo.svg.png",
-                    "founded": 1874
-                }, 
-                {
-                    "team": "Manchester City FC",
                     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png",
-                    "founded": 1880
+                    "team": "Manchester City",
+                    "mp": "38",
+                    "w": "28",
+                    "l": "5",
+                    "d": "5",
+                    "gf": "94",
+                    "ga": "33",
+                    "gd": "61",
+                    "pts": "89"
+                }, 
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/1200px-Arsenal_FC.svg.png",
+                    "team": "Arsenal",
+                    "mp": "38",
+                    "w": "26",
+                    "l": "6",
+                    "d": "6",
+                    "gf": "88",
+                    "ga": "43",
+                    "gd": "45",
+                    "pts": "84"
+                }, 
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png",
+                    "team": "Manchester United",
+                    "mp": "38",
+                    "w": "23",
+                    "l": "9",
+                    "d": "6",
+                    "gf": "58",
+                    "ga": "43",
+                    "gd": "15",
+                    "pts": "75"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/1200px-Newcastle_United_Logo.svg.png",
+                    "team": "Newcastle",
+                    "mp": "38",
+                    "w": "19",
+                    "l": "5",
+                    "d": "14",
+                    "gf": "68",
+                    "ga": "33",
+                    "gd": "35",
+                    "pts": "71"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/1200px-Liverpool_FC.svg.png",
+                    "team": "Liverpool",
+                    "mp": "38",
+                    "w": "19",
+                    "l": "9",
+                    "d": "10",
+                    "gf": "75",
+                    "ga": "47",
+                    "gd": "28",
+                    "pts": "67"
                 }
             ],    
             "top3Goalscorers": [
                 {
                     "name": "Erling Haaland",
                     "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTZi214DS2tos__MHXdINFZYNfneDe3BCWDusOzaqbCmaKBykuivS_00LtcuHend0HIcViVwp1Tn1UtuDmQR9OS6ldzN-fpcCe8UQ",
-                    "club": "Manchester City FC",
+                    "club": "Manchester City",
                     "nationality": "Norway",
-                    "goals": 14
+                    "goals": 36
+                },
+                {
+                    "name": "Harry Kane",
+                    "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSX63oNwyHo7fzWLoGJKl-kf4cuxwbRn8pOLzhxrrKpjktoks5B8M4bkqPql07JGnvyjAGuCMtlTAFpYeP9XQw-lB-0rWHvdybTAg",
+                    "club": "Tottenham",
+                    "nationality": "England",
+                    "goals": 30
+                },
+                {
+                    "name": "Ivan Toney",
+                    "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSNbxl2RDDzyrkoj8GG_WZSonQS4NLsyyKsWqpE7xu5JpnNwS0GHsBuZZ-T0eB5zNCvexgzwE2QJOxGrB0teSQUNLSBi8OUb_1eRw",
+                    "club": "Brentford",
+                    "nationality": "England",
+                    "goals": 20
+                }
+            ],
+            "top3Assisters": [
+                {
+                    "name": "Kevin De Bruyne",
+                    "picture": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSue_h-TtVrA0a7RA5HpaU6ZYIe3EKNFztXn2MU6GgD1zSe86Mu8FWbmSwEHfiAAxACIgUD_3D0y2ipgL-bnCr8ecC0S72D4QdZbw",
+                    "club": "Manchester City",
+                    "nationality": "Belgium",
+                    "assists": 16
+                },
+                {
+                    "name": "Leandro Trossard",
+                    "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTmRRLPUIcxZH3NTS9A20NbuabtZD5eR695UdeI7cYbhQkUifxlYUS-6G19IfQ7I-0tR37CcNaPGmh2SJy-KXl9-Oq6t5lCqMjSYA",
+                    "club": "Brighton",
+                    "nationality": "Belgium",
+                    "assists": 12
                 },
                 {
                     "name": "Mohamed Salah",
                     "picture": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQhnC0f5Oin-hID_3pMlP7O0wMi_6UxNhv8573pj1pUOLdxQbM0GSuzwRKAcss_sMUSmODTPMMYlQy8EzV0_UMJ2nfWEWYRaSo3How",
-                    "club": "Liverpool FC",
+                    "club": "Liverpool",
                     "nationality": "Egypt",
-                    "goals": 14
-                },
-                {
-                    "name": "Dominic Solanke",
-                    "picture": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTHqWMBVHp2CL5itwv39rTQbfNAONgjoRZ5U_xcZMx2t3CeJ694fPphL20_TH3dmBqvL6S0TvoF5ijm9E1cDi2rHZHmE4NUkYiLJlc",
-                    "club": "Bournemouth",
-                    "nationality": "England",
                     "goals": 12
                 }
             ]
@@ -97,44 +233,112 @@
             "name": "Bundesliga",
             "logo": "https://cdn.dribbble.com/userupload/8774586/file/original-221d89b1bd28922ab98d0302464ccdca.png?resize=400x0",
             "country": "Germany",
-            "top3Teams": [
+            "table": [
                 {
-                    "team": "Bayer 04 Leverkusen",
-                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Bayer_04_Leverkusen_logo.svg/640px-Bayer_04_Leverkusen_logo.svg.png",
-                    "founded": 1904
-                }, 
-                {
-                    "team": "FC Bayern Munich",
                     "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/1200px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png",
-                    "founded": 1900
+                    "team": "FC Bayern Munich",
+                    "mp": "34",
+                    "w": "21",
+                    "l": "5",
+                    "d": "8",
+                    "gf": "92",
+                    "ga": "38",
+                    "gd": "54",
+                    "pts": "71"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/1200px-Borussia_Dortmund_logo.svg.png",
+                    "team": "Borussia Dortmund",
+                    "mp": "34",
+                    "w": "22",
+                    "l": "7",
+                    "d": "5",
+                    "gf": "83",
+                    "ga": "44",
+                    "gd": "39",
+                    "pts": "71"
                 }, 
                 {
-                    "team": "VfB Stuttgart",
-                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/VfB_Stuttgart_1893_Logo.svg/1200px-VfB_Stuttgart_1893_Logo.svg.png",
-                    "founded": 1893
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/RB_Leipzig_2014_logo.svg/1200px-RB_Leipzig_2014_logo.svg.png",
+                    "team": "RB Leipzig",
+                    "mp": "34",
+                    "w": "20",
+                    "l": "8",
+                    "d": "6",
+                    "gf": "64",
+                    "ga": "41",
+                    "gd": "23",
+                    "pts": "66"
+                }, 
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/1._FC_Union_Berlin_Logo.svg/1200px-1._FC_Union_Berlin_Logo.svg.png",
+                    "team": "Union Berlin",
+                    "mp": "34",
+                    "w": "18",
+                    "l": "8",
+                    "d": "8",
+                    "gf": "51",
+                    "ga": "38",
+                    "gd": "13",
+                    "pts": "62"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/SC_Freiburg_logo.svg/1200px-SC_Freiburg_logo.svg.png",
+                    "team": "SC Freiburg",
+                    "mp": "34",
+                    "w": "17",
+                    "l": "9",
+                    "d": "8",
+                    "gf": "51",
+                    "ga": "44",
+                    "gd": "7",
+                    "pts": "59"
                 }
             ],    
             "top3Goalscorers": [
                 {
-                    "name": "Harry Kane",
-                    "picture": "https://img.a.transfermarkt.technology/portrait/big/132098-1700211169.jpg?lm=1",
-                    "club": "FC Bayern Munich",
-                    "nationality": "England",
-                    "goals": 21
-                },
-                {
-                    "name": "Serhou Guirassy",
-                    "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTUUoVYv-kVTG0Rpz0OSho1um6rbLu5MRZwP3cjYr2g8CGxaDasAsUhVlPSF-cWUYUvhBhv1mtLUo6E3ZCtcZqma1Ws5qKzWQoR0kM",
-                    "club": "VfB Stuttgart",
-                    "nationality": "Guinea",
-                    "goals": 17
-                },
-                {
-                    "name": "Lois Openda",
-                    "picture": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTXH7jBccwuyQvVhDqOjwaAMwB_x63bu9xABREnLem2yQZKoGe8_pIRJuokYfuxyB2Gm3lE7IDNFNa7ahWAOVUTPKXtKSb7eriQug",
+                    "name": "Christopher Nkunku",
+                    "picture": "https://img.a.transfermarkt.technology/portrait/big/344381-1663686834.jpg?lm=1",
                     "club": "RB Leipzig",
-                    "nationality": "Belgium",
-                    "goals": 11
+                    "nationality": "France",
+                    "goals": 16
+                },
+                {
+                    "name": "Niclas Fullkrug",
+                    "picture": "https://sortitoutsidospaces.b-cdn.net/megapacks/cutoutfaces/originals/2023.15/92018043.png",
+                    "club": "SV Werder Bremen",
+                    "nationality": "Germany",
+                    "goals": 16
+                },
+                {
+                    "name": "Randal Kolo Muani",
+                    "picture": "https://sortitoutsidospaces.b-cdn.net/megapacks/cutoutfaces/originals/2022.13/48043873.png",
+                    "club": "Eintracht Frankfurt",
+                    "nationality": "France",
+                    "goals": 15
+                }
+            ],
+            "top3Assisters": [
+                {
+                    "name": "Raphael Guerriero",
+                    "picture": "https://b.fssta.com/uploads/application/soccer/headshots/20763.png",
+                    "club": "Borussia Dortmund",
+                    "nationality": "Portugal",
+                    "assists": 12
+                },
+                {
+                    "name": "Randal Kolo Muani",
+                    "picture": "https://sortitoutsidospaces.b-cdn.net/megapacks/cutoutfaces/originals/2022.13/48043873.png",
+                    "club": "Eintracht Frankfurt",
+                    "nationality": "France",
+                    "assists": 11
+                },
+                {
+                    "name": "Florian Kainz",
+                    "picture": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTPIUSB7MEUmO_BFQ3FAezS7a6mHG01wje4wGXdbrOG6COWjv0JgW8aBJufy9K9l8qh-smUzowny26Y83_XnB8-y0lSkecQrc8CWyA",
+                    "club": "FC Koln",
+                    "nationality": "Austria",
+                    "goals": 10
                 }
             ]
         },
@@ -143,21 +347,66 @@
             "name": "Ligue 1",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Ligue1_Uber_Eats_logo.png/409px-Ligue1_Uber_Eats_logo.png",
             "country": "France",
-            "top3Teams": [
+            "table": [
                 {
-                    "team": "Paris Saint-Germain",
                     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/1200px-Paris_Saint-Germain_F.C..svg.png",
-                    "founded": 1970
+                    "team": "Paris Saint-Germain",
+                    "mp": "38",
+                    "w": "27",
+                    "l": "7",
+                    "d": "4",
+                    "gf": "89",
+                    "ga": "40",
+                    "gd": "49",
+                    "pts": "85"
                 }, 
                 {
-                    "team": "OGC Nice",
-                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/OGC_Nice_logo.svg/1200px-OGC_Nice_logo.svg.png",
-                    "founded": 1904
+                    "badge": "https://1000logos.net/wp-content/uploads/2021/05/Lens-logo.png",
+                    "team": "RC Lens",
+                    "mp": "38",
+                    "w": "25",
+                    "l": "4",
+                    "d": "9",
+                    "gf": "68",
+                    "ga": "29",
+                    "gd": "39",
+                    "pts": "84"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Olympique_Marseille_logo.svg/1200px-Olympique_Marseille_logo.svg.png",
+                    "team": "Marseille",
+                    "mp": "38",
+                    "w": "22",
+                    "l": "9",
+                    "d": "7",
+                    "gf": "67",
+                    "ga": "40",
+                    "gd": "27",
+                    "pts": "73"
                 }, 
                 {
-                    "team": "AS Monaco",
-                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/LogoASMonacoFC2021.svg/1200px-LogoASMonacoFC2021.svg.png",
-                    "founded": 1924
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Stade_Rennais_FC.svg/1200px-Stade_Rennais_FC.svg.png",
+                    "team": "Rennes",
+                    "mp": "38",
+                    "w": "21",
+                    "l": "12",
+                    "d": "5",
+                    "gf": "69",
+                    "ga": "39",
+                    "gd": "30",
+                    "pts": "68"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Lille_OSC_2018_logo.svg/1200px-Lille_OSC_2018_logo.svg.png",
+                    "team": "LOSC Lille",
+                    "mp": "38",
+                    "w": "19",
+                    "l": "9",
+                    "d": "10",
+                    "gf": "65",
+                    "ga": "44",
+                    "gd": "21",
+                    "pts": "67"
                 }
             ],    
             "top3Goalscorers": [
@@ -166,21 +415,44 @@
                     "picture": "https://b.fssta.com/uploads/application/soccer/headshots/40670.vresize.350.350.medium.91.png",
                     "club": "Paris Saint-Germain",
                     "nationality": "France",
-                    "goals": 18
+                    "goals": 29
                 },
                 {
-                    "name": "Wissam Ben Yedder",
-                    "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSPmdgKtdrRHXdtKqVYO0i8QDUv6LK8w_0bBnOyBrb6w6CenyrLEPzbheTcY7Y3S8orCIcgzgvc6kF7E01mpTL2mfwnT-tmHsROAg",
-                    "club": "AS Monaco",
+                    "name": "Alexandre Lacazette",
+                    "picture": "https://sortitoutsidospaces.b-cdn.net/megapacks/cutoutfaces/originals/10.11/34011687.png",
+                    "club": "Lyon",
                     "nationality": "France",
-                    "goals": 8
+                    "goals": 27
                 },
                 {
-                    "name": "Akor Adams",
-                    "picture": "https://img.a.transfermarkt.technology/portrait/big/607034-1702663135.JPG?lm=1",
-                    "club": "Montpellier Herault SC",
-                    "nationality": "Nigeria",
-                    "goals": 7
+                    "name": "Jonathan David",
+                    "picture": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSGBOcFCCTmx5sAMI6SQA5egVLUANQMgJEHK7vgIKQlCF-AS2vyI4mbDWNIpiVIbOGZtn8KsaI5vlbVYDLOMknUaBkXt1kOoX6Whw",
+                    "club": "LOSC Lille",
+                    "nationality": "Canada",
+                    "goals": 24
+                }
+            ],
+            "top3Assisters": [
+                {
+                    "name": "Lionel Messi",
+                    "picture": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRZn-RS1CjoDmZZM7Bb9LgWA9mkFR3lnS0UK64Mkcse4qtTFO5Z2xIjLwvO_NTVJjv8fE5mkLWwdDPj-it26KofjRoCurh1QaVlMA",
+                    "club": "Paris Saint-Germain",
+                    "nationality": "Argentina",
+                    "assists": 16
+                },
+                {
+                    "name": "Neymar",
+                    "picture": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRWjPt7pkva0lOxzZcsKb0fpDiEt3JK9dYOTVbmPiiUjnWLJMY2xrfTb1zjWDWSZfSvc1hlvyYu-YtfEbGRkIF_7aFX4NuYt27V8dE",
+                    "club": "Paris Saint-Germain",
+                    "nationality": "Brazil",
+                    "assists": 11
+                },
+                {
+                    "name": "Benjamin Bourigeaud",
+                    "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcT2LPvBRabj3x6JHX7gv4YAQaKlutRs2jyMcNZcCjTk3lDxXm10xl0sbfSIZVIzOqYmtqvjaGKVoJ2N4QleYyWlZQypUiOyN9Pvv0w",
+                    "club": "Rennes",
+                    "nationality": "France",
+                    "goals": 10
                 }
             ]
         },
@@ -189,24 +461,76 @@
             "name": "Seria A",
             "logo": "https://1000logos.net/wp-content/uploads/2019/01/Italian-Serie-A-TIM-Logo.png",
             "country": "Italy",
-            "top3Teams": [
+            "table": [
                 {
-                    "team": "Inter Milan",
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/SSC_Neapel.svg/1024px-SSC_Neapel.svg.png",
+                    "team": "Napoli",
+                    "mp": "38",
+                    "w": "28",
+                    "l": "4",
+                    "d": "6",
+                    "gf": "77",
+                    "ga": "28",
+                    "gd": "49",
+                    "pts": "90"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/S.S._Lazio_badge.svg/1200px-S.S._Lazio_badge.svg.png",
+                    "team": "Lazio",
+                    "mp": "38",
+                    "w": "22",
+                    "l": "8",
+                    "d": "8",
+                    "gf": "60",
+                    "ga": "30",
+                    "gd": "30",
+                    "pts": "74"
+                },
+                {
                     "badge": "https://cdn.vox-cdn.com/thumbor/2fULY-8xfUKZKPV8Pt1Q1mzRzEA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22407687/09ABCFC9_621E_4190_801B_92EDE17085BD.jpeg",
-                    "founded": 1908
-                }, 
+                    "team": "Inter Milan",
+                    "mp": "38",
+                    "w": "23",
+                    "l": "12",
+                    "d": "3",
+                    "gf": "71",
+                    "ga": "42",
+                    "gd": "29",
+                    "pts": "72"
+                },  
                 {
-                    "team": "Juventus",
-                    "badge": "https://creativereview.imgix.net/content/uploads/2017/01/Juve-sq.jpg",
-                    "founded": 1897
-                }, 
-                {
-                    "team": "AC Milan",
                     "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/640px-Logo_of_AC_Milan.svg.png",
-                    "founded": 1899
+                    "team": "AC Milan",
+                    "mp": "38",
+                    "w": "20",
+                    "l": "8",
+                    "d": "10",
+                    "gf": "64",
+                    "ga": "43",
+                    "gd": "21",
+                    "pts": "70"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/AtalantaBC.svg/1200px-AtalantaBC.svg.png",
+                    "team": "Atalanta",
+                    "mp": "38",
+                    "w": "19",
+                    "l": "9",
+                    "d": "10",
+                    "gf": "65",
+                    "ga": "44",
+                    "gd": "21",
+                    "pts": "67"
                 }
             ],    
             "top3Goalscorers": [
+                {
+                    "name": "Victor Osimhen",
+                    "picture": "https://i.goalzz.com/?i=ashrafzamrani%2Fvictor+osimhen.gif",
+                    "club": "Napoli",
+                    "nationality": "Nigeria",
+                    "goals": 26
+                },
                 {
                     "name": "Lautaro Martinez",
                     "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSqxjC9I0oT_k6XxZvu88b_E2RUyPCiWiw338qgeHxAQlhNMqRzO7U2SbuwzRNw2Aw6YVR0r0eTZmPOd98xFJUjUUQ8ZoD7Xy27HQ",
@@ -215,18 +539,34 @@
                     "goals": 16
                 },
                 {
-                    "name": "Domenico Berardi",
-                    "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTByiO4kp4ovKNnv69tUIACn-_qAu5tbVow4iFHoG4DEnqnqlie2Q61J5gm8q680-qC7rhTg7nYeHQXFToiruQQ-7J6rAj7fPHESw",
-                    "club": "US Sassuolo Calcio",
-                    "nationality": "Italy",
-                    "goals": 9
+                    "name": "Boulaye Dia",
+                    "picture": "https://sortitoutsidospaces.b-cdn.net/media/n3I6lhsA0Yp66pt8uvwm5P7uwu3DuDPlHF4L9vc5.png",
+                    "club": "Salernitana",
+                    "nationality": "Senegal",
+                    "goals": 16
+                }
+            ],
+            "top3Assisters": [
+                {
+                    "name": "Khvicha Kvaratskhelia",
+                    "picture": "https://sortitoutsidospaces.b-cdn.net/media/UVfGIrDkpA7OzNvII4EvEbH76lP1Py6cz0UxpFEG.png",
+                    "club": "Napoli",
+                    "nationality": "Georgia",
+                    "assists": 10
                 },
                 {
-                    "name": "Olivier Giroud",
-                    "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTupSGTM2JdBWUhIyJTHj-F_Wz3Rp76mCGoM-f8wfJICo3J-vtTD_q7Lpg76Tx9oqis2iVTINaVgYhrdNSb7fpwukmmiTZW-CcHVg",
-                    "club": "AC Milan",
-                    "nationality": "France",
-                    "goals": 9
+                    "name": "Filip Kostic",
+                    "picture": "https://i.goalzz.com/?i=o%2Fp%2F98%2F310%2Ffilip-kostic-1.png",
+                    "club": "Juventus",
+                    "nationality": "Serbia",
+                    "assists": 8
+                },
+                {
+                    "name": "Musa Barrow",
+                    "picture": "https://cdn.futbin.com/content/fifa24/img/players/242374.png?v=23",
+                    "club": "Bologna",
+                    "nationality": "Gambia",
+                    "goals": 8
                 }
             ]
         }

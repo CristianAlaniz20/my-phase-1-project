@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", e => {
     const h2 = document.createElement("h2");
-    h2.textContent = "As of January 10th, 2024";
+    h2.textContent = "2022/2023 Season";
     document.querySelector("body").appendChild(h2);
 
     createLeagueDiv()
@@ -44,6 +44,7 @@ function createLeagueDivSubElements(div) {
     //div.appendChild(leagueLogoImg)
 }
 
+/*
 //fetches top 3 teams from each league and makes a div for each team
 function createTeamDiv() {
     fetch("http://127.0.0.1:3000/leagues")
@@ -85,3 +86,4 @@ function iterateThroughTeamsArray(array, div) {
         div.appendChild(teamDiv)
     })
 }
+*/
