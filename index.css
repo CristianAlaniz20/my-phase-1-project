@@ -42,11 +42,10 @@ body {
 }
 
 
-tr, td {
+tr {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px;
 }
 
 /*
@@ -61,4 +60,20 @@ tr, td {
 .team-badge {
   height: 20px;
   width: auto;
+}
+
+.team-table-badge {
+  height: 30px;
+  width: 55px;
+}
+
+.team-name {
+  height: 28px;
+  width: 160px;
+  text-align: left;
+}
+
+.table-data {
+  height: 28px;
+  width: 34px;
 }

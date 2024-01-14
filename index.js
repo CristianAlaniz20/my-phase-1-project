@@ -62,6 +62,7 @@ function createTableRow() {
                 valuesArray.forEach(element => {
                     if (valuesArray[0] === element) {
                         const td = document.createElement("td")
+                        td.classList.add("team-table-badge")
                         const teamBadge = document.createElement("img")
                         teamBadge.classList.add("team-badge")
                         teamBadge.setAttribute("src", valuesArray[0])
@@ -69,8 +70,15 @@ function createTableRow() {
                         td.appendChild(teamBadge)
                         teamRow.appendChild(td)
                         debugger
+                    } else if (valuesArray[1] === element) {
+                        const td = document.createElement("td")
+                        td.classList.add("team-name")
+                        td.textContent = element
+                        teamRow.appendChild(td)
+                        debugger
                     } else {
                         const td = document.createElement("td")
+                        td.classList.add("table-data")
                         td.textContent = element
                         teamRow.appendChild(td)
                         debugger
