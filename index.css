@@ -48,6 +48,7 @@ tr, td {
   align-items: center;
   padding: 5px;
 }
+
 /*
 .team-div {
   border: 1px solid white;
@@ -55,9 +56,9 @@ tr, td {
   height: 225px;
   width: 150px;
 }
+*/
 
 .team-badge {
-  height: 100px;
+  height: 20px;
   width: auto;
 }
-*/

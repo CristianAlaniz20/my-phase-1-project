@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", e => {
     document.querySelector("body").appendChild(h2);
 
     createLeagueDiv()
-    createTeamDiv()
+    createTableRow()
+    //createTeamDiv()
 })
 
 //creates league divs and fetches their info
@@ -42,6 +43,47 @@ function createLeagueDivSubElements(div) {
     subElementsArray.forEach(element => div.appendChild(element))
     
     //div.appendChild(leagueLogoImg)
+}
+
+function createTableRow() {
+    fetch("http://127.0.0.1:3000/leagues")
+    .then(response => response.json())
+    .then(data => {
+        const standingsTable = document.getElementById("table-1")
+        data.forEach(element => {
+            const teamsArray = element.table;
+            //console.log(element.table)
+            debugger
+            teamsArray.forEach(team => {
+                const valuesArray = Object.values(team)
+                const teamRow = document.createElement("tr")
+                debugger
+                
+                valuesArray.forEach(element => {
+                    if (valuesArray[0] === element) {
+                        const td = document.createElement("td")
+                        const teamBadge = document.createElement("img")
+                        teamBadge.classList.add("team-badge")
+                        teamBadge.setAttribute("src", valuesArray[0])
+                        console.log(teamBadge)
+                        td.appendChild(teamBadge)
+                        teamRow.appendChild(td)
+                        debugger
+                    } else {
+                        const td = document.createElement("td")
+                        td.textContent = element
+                        teamRow.appendChild(td)
+                        debugger
+                    }
+                })
+                standingsTable.appendChild(teamRow)
+                debugger
+                
+            })
+
+        })
+    })
+    .catch(error => console.log(error))
 }
 
 /*
