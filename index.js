@@ -49,8 +49,9 @@ function createTableRow() {
     fetch("http://127.0.0.1:3000/leagues")
     .then(response => response.json())
     .then(data => {
-        const standingsTable = document.getElementById("table-1")
+        let count = 1;
         data.forEach(element => {
+            const standingsTable = document.getElementById(`table-${count}`)
             const teamsArray = element.table;
             //console.log(element.table)
             debugger
@@ -62,7 +63,7 @@ function createTableRow() {
                 valuesArray.forEach(element => {
                     if (valuesArray[0] === element) {
                         const td = document.createElement("td")
-                        td.classList.add("team-table-badge")
+                        td.classList.add("team-badge-td")
                         const teamBadge = document.createElement("img")
                         teamBadge.classList.add("team-badge")
                         teamBadge.setAttribute("src", valuesArray[0])
@@ -85,10 +86,10 @@ function createTableRow() {
                     }
                 })
                 standingsTable.appendChild(teamRow)
-                debugger
-                
+                debugger      
             })
-
+            count++
+            debugger
         })
     })
     .catch(error => console.log(error))

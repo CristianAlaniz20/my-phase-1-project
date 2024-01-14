@@ -46,25 +46,19 @@ tr {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid white;
+  padding-top: 5px;
 }
-
-/*
-.team-div {
-  border: 1px solid white;
-  text-align: center;
-  height: 225px;
-  width: 150px;
-}
-*/
 
 .team-badge {
   height: 20px;
   width: auto;
 }
 
-.team-table-badge {
+.team-badge-td {
   height: 30px;
   width: 55px;
+  text-align: center;
 }
 
 .team-name {
@@ -76,4 +70,5 @@ tr {
 .table-data {
   height: 28px;
   width: 34px;
+  text-align: center;
 }
