@@ -14,11 +14,13 @@ function createLeagueDiv() {
     .then(data => {
         const leagueContainer = document.getElementById("league-container");
         data.forEach(element => {
+            //create div and set class and id name
             const leagueDiv = document.createElement("div")
             leagueDiv.setAttribute("id", element.id)
             leagueDiv.classList.add("league-div")
-            leagueContainer.appendChild(leagueDiv)
+            //call function and append div to another div
             createLeagueDivSubElements.call(element, leagueDiv)
+            leagueContainer.appendChild(leagueDiv)
         });
     })
     .catch(error => console.log(error))
@@ -26,26 +28,17 @@ function createLeagueDiv() {
 
 //creates league div sub elements
 function createLeagueDivSubElements(div) {
-    /*
-    const h2 = document.createElement("h2")
-    h2.classList.add("league-name")
-    h2.textContent = this.name
-    */
+    //create image element and set its source and class name
     const leagueLogoImg = document.createElement("img")
     leagueLogoImg.setAttribute("src", this.logo)
     leagueLogoImg.classList.add("league-img")
-
-    
-    const countryTextElement = document.createElement("h3")
-    countryTextElement.classList.add("league-country")
-    countryTextElement.setAttribute("id", this.country)
-    countryTextElement.textContent = this.country
-    
-    
-    //const subElementsArray = [h2, img, h4]
-    //subElementsArray.forEach(element => div.appendChild(element))
-    
-    const subElementsArray = [countryTextElement, leagueLogoImg]
+    //create h3 element and set its class and id name
+    const countryH3Element = document.createElement("h3")
+    countryH3Element.classList.add("league-country")
+    countryH3Element.setAttribute("id", this.country)
+    countryH3Element.textContent = this.country
+    //create element array and appendChild each one to passed in div
+    const subElementsArray = [countryH3Element, leagueLogoImg]
     subElementsArray.forEach(element => div.appendChild(element))
     
     //div.appendChild(leagueLogoImg)
@@ -57,16 +50,18 @@ function createTeamDiv() {
     .then(response => response.json())
     .then(data => {
         data.forEach(element => {
+            //
             const teamDivContainer = document.getElementById("team-container")
             const teamsArray = element.top3Teams;
             const leagueTeamsDiv = document.createElement("div")
             leagueTeamsDiv.classList.add(`${element.country}-div`)
-            debugger
+            
             iterateThroughTeamsArray(teamsArray, leagueTeamsDiv)
             teamDivContainer.appendChild(leagueTeamsDiv)
-            debugger
+
         })
     })
+    .catch(error => console.log(error))
 }
 
 //iterates through array, makes subelements for each element, and appends them to a team div

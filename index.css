@@ -4,17 +4,24 @@ body {
   font: medium "Arial", sans-serif;
 }
 
-#title {
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 25px;
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+#title-img {
+  margin-right: 10px;
+  height: 100px;
+  width: auto;
 }
 
 #league-container {
   background: white;
   color: black;
   text-align: center;
-  height: 400px;
+  height: 300px;
   width: auto;
 }
 
@@ -22,13 +29,11 @@ body {
   text-align: center;
   display: inline-block;
   width: 360px;
-  height: 350px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  height: 300px;
 }
 
 .league-img {
-  height: 200px;
+  height: 150px;
   width: auto; 
 }
 
