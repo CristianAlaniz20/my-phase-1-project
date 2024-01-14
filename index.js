@@ -35,17 +35,20 @@ function createLeagueDivSubElements(div) {
     leagueLogoImg.setAttribute("src", this.logo)
     leagueLogoImg.classList.add("league-img")
 
+    
     const countryTextElement = document.createElement("h3")
     countryTextElement.classList.add("league-country")
     countryTextElement.setAttribute("id", this.country)
     countryTextElement.textContent = this.country
-
+    
     
     //const subElementsArray = [h2, img, h4]
     //subElementsArray.forEach(element => div.appendChild(element))
+    
     const subElementsArray = [countryTextElement, leagueLogoImg]
     subElementsArray.forEach(element => div.appendChild(element))
-    //div.appendChild(img)
+    
+    //div.appendChild(leagueLogoImg)
 }
 
 //fetches top 3 teams from each league and makes a div for each team
