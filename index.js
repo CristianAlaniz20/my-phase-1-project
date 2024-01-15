@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", e => {
 
     createLeagueDiv()
     createTableRow()
-    //createTeamDiv()
+    createGoalscorersDiv()
 })
 
 //creates league divs and fetches their info
@@ -45,6 +45,7 @@ function createLeagueDivSubElements(div) {
     //div.appendChild(leagueLogoImg)
 }
 
+//creates table row and table data for each team, assigning each row to their respective league
 function createTableRow() {
     fetch("http://127.0.0.1:3000/leagues")
     .then(response => response.json())
@@ -53,13 +54,10 @@ function createTableRow() {
         data.forEach(element => {
             const standingsTable = document.getElementById(`table-${count}`)
             const teamsArray = element.table;
-            //console.log(element.table)
-            debugger
             teamsArray.forEach(team => {
                 const valuesArray = Object.values(team)
                 const teamRow = document.createElement("tr")
-                debugger
-                
+                //if element is the img link, make img element and appendChild it to the td created
                 valuesArray.forEach(element => {
                     if (valuesArray[0] === element) {
                         const td = document.createElement("td")
@@ -67,55 +65,73 @@ function createTableRow() {
                         const teamBadge = document.createElement("img")
                         teamBadge.classList.add("team-badge")
                         teamBadge.setAttribute("src", valuesArray[0])
-                        console.log(teamBadge)
                         td.appendChild(teamBadge)
                         teamRow.appendChild(td)
-                        debugger
+                    //if element is team name, add class name "team-name" then appendChild to row
                     } else if (valuesArray[1] === element) {
                         const td = document.createElement("td")
                         td.classList.add("team-name")
                         td.textContent = element
                         teamRow.appendChild(td)
-                        debugger
+                    //for all other data, create td, set its text context to the element and appendChild to row
                     } else {
                         const td = document.createElement("td")
                         td.classList.add("table-data")
                         td.textContent = element
                         teamRow.appendChild(td)
-                        debugger
                     }
                 })
                 standingsTable.appendChild(teamRow)
-                debugger      
             })
             count++
+        })
+    })
+    .catch(error => console.log(error))
+}
+
+
+//fetches top 3 goalscorers from each league and makes a div for each team
+function createGoalscorersDiv() {
+    fetch("http://127.0.0.1:3000/leagues")
+    .then(response => response.json())
+    .then(data => {
+        data.forEach(element => {
+            const strikers = element.top3Goalscorers
+            strikers.forEach(striker => {
+                const strikerDiv = document.createElement("div")
+                strikerDiv.classList.add("player")
+                debugger
+                for (const info in striker) {
+                    if (info === "name") {
+                        const playerInfo = document.createElement("p")
+                        playerInfo.textContent = `${striker[info]}`;
+                        strikerDiv.appendChild(playerInfo)
+                        debugger
+                    } else if (info === "picture") {
+                        const playerPic = document.createElement("img")
+                        playerPic.classList.add("player-pic")
+                        playerPic.setAttribute("src", striker[info])
+                        strikerDiv.appendChild(playerPic)
+                        debugger
+                    } else {
+                        const playerInfo = document.createElement("p")
+                        playerInfo.textContent = `${info}: ${striker[info]}`;
+                        strikerDiv.appendChild(playerInfo)
+                        debugger
+                    }
+                }
+                const strikerContainer = document.getElementById("goals")
+                strikerContainer.appendChild(strikerDiv)
+                debugger
+            })
             debugger
         })
+        debugger
     })
     .catch(error => console.log(error))
 }
 
 /*
-//fetches top 3 teams from each league and makes a div for each team
-function createTeamDiv() {
-    fetch("http://127.0.0.1:3000/leagues")
-    .then(response => response.json())
-    .then(data => {
-        data.forEach(element => {
-            //
-            const teamDivContainer = document.getElementById("team-container")
-            const teamsArray = element.top3Teams;
-            const leagueTeamsDiv = document.createElement("div")
-            leagueTeamsDiv.classList.add(`${element.country}-div`)
-            
-            iterateThroughTeamsArray(teamsArray, leagueTeamsDiv)
-            teamDivContainer.appendChild(leagueTeamsDiv)
-
-        })
-    })
-    .catch(error => console.log(error))
-}
-
 //iterates through array, makes subelements for each element, and appends them to a team div
 function iterateThroughTeamsArray(array, div) {
     array.forEach(teamObj => {
