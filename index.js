@@ -90,40 +90,21 @@ function createTableRow() {
 }
 
 
-//fetches top 3 goalscorers from each league and makes a div for each team
+//fetches top 3 goalscorers and top 3 assisters from each league
 function createGoalscorersDiv() {
     fetch("http://127.0.0.1:3000/leagues")
     .then(response => response.json())
     .then(data => {
         data.forEach(element => {
+            //assign arrays and correspondings divs
             const strikers = element.top3Goalscorers
-            strikers.forEach(striker => {
-                const strikerDiv = document.createElement("div")
-                strikerDiv.classList.add("player")
-                debugger
-                for (const info in striker) {
-                    if (info === "name") {
-                        const playerInfo = document.createElement("p")
-                        playerInfo.textContent = `${striker[info]}`;
-                        strikerDiv.appendChild(playerInfo)
-                        debugger
-                    } else if (info === "picture") {
-                        const playerPic = document.createElement("img")
-                        playerPic.classList.add("player-pic")
-                        playerPic.setAttribute("src", striker[info])
-                        strikerDiv.appendChild(playerPic)
-                        debugger
-                    } else {
-                        const playerInfo = document.createElement("p")
-                        playerInfo.textContent = `${info}: ${striker[info]}`;
-                        strikerDiv.appendChild(playerInfo)
-                        debugger
-                    }
-                }
-                const strikerContainer = document.getElementById("goals")
-                strikerContainer.appendChild(strikerDiv)
-                debugger
-            })
+            const assisters = element.top3Assisters
+            const strikerContainer = document.getElementById("goals")
+            const assisterContainer = document.getElementById("assists")
+            debugger
+            //call createPlayerCards for each array/div pair
+            createPlayerCards(strikers, strikerContainer)
+            createPlayerCards(assisters, assisterContainer)
             debugger
         })
         debugger
@@ -131,26 +112,35 @@ function createGoalscorersDiv() {
     .catch(error => console.log(error))
 }
 
-/*
-//iterates through array, makes subelements for each element, and appends them to a team div
-function iterateThroughTeamsArray(array, div) {
-    array.forEach(teamObj => {
-        const teamDiv = document.createElement("div")
-        teamDiv.classList.add("team-div")
-        const teamName = document.createElement("h4")
-        teamName.classList.add("team-name")
-        teamName.textContent = teamObj.team
-        const teamBadge = document.createElement("img")
-        teamBadge.setAttribute("src", teamObj.badge)
-        teamBadge.classList.add("team-badge")
-        const foundedYear = document.createElement("p")
-        foundedYear.classList.add("founded-year")
-        foundedYear.textContent = `founded: ${teamObj.founded}`
-
-//puts all team div subelements in an array to appendChild each one        
-        const teamSubElementsArray = [teamName, teamBadge, foundedYear]
-        teamSubElementsArray.forEach(element => teamDiv.appendChild(element))
-        div.appendChild(teamDiv)
+//Creates a player card for each element in the array, and appendChilds them to a div
+function createPlayerCards (array, div) {
+    array.forEach(professional => {
+        const professionalDiv = document.createElement("div")
+        professionalDiv.classList.add("player")
+        debugger
+        for (const info in professional) {
+            //adds info to card WITHOUT property text
+            if (info === "name") {
+                const playerInfo = document.createElement("p")
+                playerInfo.textContent = `${professional[info]}`;
+                professionalDiv.appendChild(playerInfo)
+                debugger
+            //create img tag for player pic and adds to card
+            } else if (info === "picture") {
+                const playerPic = document.createElement("img")
+                playerPic.classList.add("player-pic")
+                playerPic.setAttribute("src", professional[info])
+                professionalDiv.appendChild(playerPic)
+                debugger
+            //adds info to card WITH property text
+            } else {
+                const playerInfo = document.createElement("p")
+                playerInfo.textContent = `${info}: ${professional[info]}`;
+                professionalDiv.appendChild(playerInfo)
+                debugger
+            }
+        }
+        div.appendChild(professionalDiv)
+        debugger
     })
 }
-*/

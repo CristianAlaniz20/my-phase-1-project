@@ -55,6 +55,7 @@ body {
 .stats {
   height: 1300px;
   width: 400px;
+  text-align: center;
 }
 
 tr {
@@ -86,4 +87,9 @@ tr {
   height: 28px;
   width: 34px;
   text-align: center;
+}
+
+.player-pic {
+  height: 112px;
+  width: auto;
 }
