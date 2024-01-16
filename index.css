@@ -42,8 +42,8 @@ body {
 }
 
 #league-table {
-  height: fit-content;
-  width: fit-content;
+  height: 1300px;
+  width: auto;
 }
 
 #team-container {

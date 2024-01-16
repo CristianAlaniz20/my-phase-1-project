@@ -4,9 +4,10 @@ document.addEventListener("DOMContentLoaded", e => {
     document.querySelector("body").appendChild(h2);
 
     createLeagueDiv()
-    createTableRow()
+    //createTableRow()
     fetchPlayers()
     addDropdownEventListener()
+    dropdownCallbackFunction()
 })
 
 //creates league divs and fetches their info
@@ -102,13 +103,10 @@ function fetchPlayers() {
             const assisters = element.top3Assisters
             const strikerContainer = document.getElementById("goals")
             const assisterContainer = document.getElementById("assists")
-            debugger
             //call createPlayerCards for each array/div pair
             createPlayerCards(strikers, strikerContainer)
-            createPlayerCards(assisters, assisterContainer)
-            debugger
+            createPlayerCards(assisters, assisterContainer) 
         })
-        debugger
     })
     .catch(error => console.log(error))
 }
@@ -118,31 +116,26 @@ function createPlayerCards(array, div) {
     array.forEach(professional => {
         const professionalDiv = document.createElement("div")
         professionalDiv.classList.add("player")
-        debugger
         for (const info in professional) {
             //adds info to card WITHOUT property text
             if (info === "name") {
                 const playerInfo = document.createElement("p")
                 playerInfo.textContent = `${professional[info]}`;
                 professionalDiv.appendChild(playerInfo)
-                debugger
             //create img tag for player pic and adds to card
             } else if (info === "picture") {
                 const playerPic = document.createElement("img")
                 playerPic.classList.add("player-pic")
                 playerPic.setAttribute("src", professional[info])
                 professionalDiv.appendChild(playerPic)
-                debugger
             //adds info to card WITH property text
             } else {
                 const playerInfo = document.createElement("p")
                 playerInfo.textContent = `${info.toUpperCase()}: ${professional[info]}`;
                 professionalDiv.appendChild(playerInfo)
-                debugger
             }
         }
         div.appendChild(professionalDiv)
-        debugger
     })
 }
 
@@ -151,20 +144,20 @@ function addDropdownEventListener() {
     dropdown.addEventListener("change", (e) => {
         const selectedOption = dropdown.value;
         switch (selectedOption) {
-            case "LaLiga":
-                console.log(`Hey ${selectedOption}`)
+            case "1":
+                dropdownCallbackFunction(selectedOption)
                 break;
-            case"PremierLeague":
-                console.log(`Hey ${selectedOption}`)
+            case"2":
+                dropdownCallbackFunction(selectedOption)
                 break;
-            case "Bundesliga": 
-                console.log(`Hey ${selectedOption}`)
+            case "3": 
+                dropdownCallbackFunction(selectedOption)
                 break;
-            case "Ligue1":
-                console.log(`Hey ${selectedOption}`)
+            case "4":
+                dropdownCallbackFunction(selectedOption)
                 break;
-            case "SeriaA":
-                console.log(`Hey ${selectedOption}`)
+            case "5":
+                dropdownCallbackFunction(selectedOption)
                 break;
             default:
                 console.log(`I don't know you, ${selectedOption}`)
@@ -172,6 +165,80 @@ function addDropdownEventListener() {
     })
 }
 
-function dropdownCallbackFunction(dropdownValue) {
+function dropdownCallbackFunction(dropdownValue = 1) {
+    fetch(`http://127.0.0.1:3000/leagues/${dropdownValue}`)
+        .then(response => response.json())
+        .then(data => {
+            createTable(data.name)
+            createTableRows(data.table)
+        })
+        .catch(error => console.log(error))
+}
 
+function createTable(leagueName = "La Liga") {
+    //create table title row
+    const leagueDiv = document.getElementById("league-table")
+    const table = document.createElement("table")
+    table.setAttribute("id", `table`)
+    
+    const titleRow = document.createElement("tr")
+    const titleCell = document.createElement("th")
+    titleCell.textContent = leagueName
+    leagueDiv.appendChild(table)
+    table.appendChild(titleRow)
+    titleRow.appendChild(titleCell)
+    //create table headers row
+    const tableRow = document.createElement("tr")
+    const tableHeaders = [" ", "Team", "MP", "W", "D", "L", "GF", "GA", "GD", "Pts"]
+    tableHeaders.forEach(element => {
+        //create badge cell
+        if (tableHeaders[0] === element) {
+            const tableCell = document.createElement("td")
+            tableCell.classList.add("team-badge-td")
+            tableCell.textContent = element
+            tableRow.appendChild(tableCell)
+        //create team name cell
+        } else if (tableHeaders[1] === element) {
+            const tableCell = document.createElement("td")
+            tableCell.classList.add("team-name")
+            tableCell.textContent = element
+            tableRow.appendChild(tableCell)
+        //create stats cell 
+        } else {
+            const tableCell = document.createElement("td")
+            tableCell.classList.add("table-data")
+            tableCell.textContent = element
+            tableRow.appendChild(tableCell)
+        }
+    })
+    table.appendChild(tableRow)
+}
+
+function createTableRows(array) {
+    const table = document.getElementById("table")
+    array.forEach(team => {
+        const tableRow = document.createElement("tr")
+        for(const info in team) {
+            if (info === "badge") {
+                const tableCell = document.createElement("td")
+                tableCell.classList.add("team-badge-td")
+                const teamBadge = document.createElement("img")
+                teamBadge.classList.add("team-badge")
+                teamBadge.setAttribute("src", team[info])
+                tableCell.appendChild(teamBadge)
+                tableRow.appendChild(tableCell)
+            } else if (info === "team") {
+            const tableCell = document.createElement("td")
+            tableCell.classList.add("team-name")
+            tableCell.textContent = team[info]
+            tableRow.appendChild(tableCell)
+            } else {
+                const tableCell = document.createElement("td")
+                tableCell.classList.add("table-data")
+                tableCell.textContent = team[info]
+                tableRow.appendChild(tableCell)
+            }
+        }
+        table.appendChild(tableRow)
+    })
 }
