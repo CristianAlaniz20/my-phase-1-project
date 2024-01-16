@@ -43,7 +43,7 @@ body {
 
 #league-table {
   height: 1300px;
-  width: auto;
+  width: fit-content;
 }
 
 #team-container {

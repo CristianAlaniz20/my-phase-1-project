@@ -5,10 +5,13 @@ document.addEventListener("DOMContentLoaded", e => {
 
     createLeagueDiv()
     //createTableRow()
-    fetchPlayers()
+    //fetchPlayers()
     addDropdownEventListener()
-    dropdownCallbackFunction()
+    fetchDropdownOptionData()
+
 })
+
+let callCount = 0;
 
 //creates league divs and fetches their info
 function createLeagueDiv() {
@@ -47,70 +50,6 @@ function createLeagueDivSubElements(div) {
     //div.appendChild(leagueLogoImg)
 }
 
-//creates table row and table data for each team, assigning each row to their respective league
-function createTableRow() {
-    fetch("http://127.0.0.1:3000/leagues")
-    .then(response => response.json())
-    .then(data => {
-        let count = 1;
-        data.forEach(element => {
-            const standingsTable = document.getElementById(`table-${count}`)
-            const teamsArray = element.table;
-            teamsArray.forEach(team => {
-                const valuesArray = Object.values(team)
-                const teamRow = document.createElement("tr")
-                //if element is the img link, make img element and appendChild it to the td created
-                valuesArray.forEach(element => {
-                    if (valuesArray[0] === element) {
-                        const td = document.createElement("td")
-                        td.classList.add("team-badge-td")
-                        const teamBadge = document.createElement("img")
-                        teamBadge.classList.add("team-badge")
-                        teamBadge.setAttribute("src", valuesArray[0])
-                        td.appendChild(teamBadge)
-                        teamRow.appendChild(td)
-                    //if element is team name, add class name "team-name" then appendChild to row
-                    } else if (valuesArray[1] === element) {
-                        const td = document.createElement("td")
-                        td.classList.add("team-name")
-                        td.textContent = element
-                        teamRow.appendChild(td)
-                    //for all other data, create td, set its text context to the element and appendChild to row
-                    } else {
-                        const td = document.createElement("td")
-                        td.classList.add("table-data")
-                        td.textContent = element
-                        teamRow.appendChild(td)
-                    }
-                })
-                standingsTable.appendChild(teamRow)
-            })
-            count++
-        })
-    })
-    .catch(error => console.log(error))
-}
-
-
-//fetches top 3 goalscorers and top 3 assisters from each league
-function fetchPlayers() {
-    fetch("http://127.0.0.1:3000/leagues")
-    .then(response => response.json())
-    .then(data => {
-        data.forEach(element => {
-            //assign arrays and correspondings divs
-            const strikers = element.top3Goalscorers
-            const assisters = element.top3Assisters
-            const strikerContainer = document.getElementById("goals")
-            const assisterContainer = document.getElementById("assists")
-            //call createPlayerCards for each array/div pair
-            createPlayerCards(strikers, strikerContainer)
-            createPlayerCards(assisters, assisterContainer) 
-        })
-    })
-    .catch(error => console.log(error))
-}
-
 //Creates a player card for each element in the array, and appendChilds them to a div
 function createPlayerCards(array, div) {
     array.forEach(professional => {
@@ -139,25 +78,31 @@ function createPlayerCards(array, div) {
     })
 }
 
+//adds "change" event listener to league-dropdown
 function addDropdownEventListener() {
     const dropdown = document.getElementById("league-dropdown")
     dropdown.addEventListener("change", (e) => {
         const selectedOption = dropdown.value;
         switch (selectedOption) {
             case "1":
-                dropdownCallbackFunction(selectedOption)
+                removeTableAndPlayers()
+                fetchDropdownOptionData(selectedOption)
                 break;
             case"2":
-                dropdownCallbackFunction(selectedOption)
+                removeTableAndPlayers()
+                fetchDropdownOptionData(selectedOption)
                 break;
             case "3": 
-                dropdownCallbackFunction(selectedOption)
+                removeTableAndPlayers()
+                fetchDropdownOptionData(selectedOption)
                 break;
             case "4":
-                dropdownCallbackFunction(selectedOption)
+                removeTableAndPlayers()
+                fetchDropdownOptionData(selectedOption)
                 break;
             case "5":
-                dropdownCallbackFunction(selectedOption)
+                removeTableAndPlayers()
+                fetchDropdownOptionData(selectedOption)
                 break;
             default:
                 console.log(`I don't know you, ${selectedOption}`)
@@ -165,45 +110,49 @@ function addDropdownEventListener() {
     })
 }
 
-function dropdownCallbackFunction(dropdownValue = 1) {
+//fetch corresponding data to dropdown option
+function fetchDropdownOptionData(dropdownValue = 1) {
     fetch(`http://127.0.0.1:3000/leagues/${dropdownValue}`)
         .then(response => response.json())
         .then(data => {
             createTable(data.name)
             createTableRows(data.table)
+            createPlayerCards(data.top3Goalscorers, document.getElementById("goals"))
+            createPlayerCards(data.top3Assisters, document.getElementById("assists"))
         })
         .catch(error => console.log(error))
 }
 
-function createTable(leagueName = "La Liga") {
-    //create table title row
-    const leagueDiv = document.getElementById("league-table")
+//creates initial table for a league
+function createTable(leagueName) {
+    //creates table title row
+    const tableDiv = document.getElementById("league-table")
     const table = document.createElement("table")
     table.setAttribute("id", `table`)
     
     const titleRow = document.createElement("tr")
     const titleCell = document.createElement("th")
     titleCell.textContent = leagueName
-    leagueDiv.appendChild(table)
+    tableDiv.appendChild(table)
     table.appendChild(titleRow)
     titleRow.appendChild(titleCell)
-    //create table headers row
+    //creates table headers row
     const tableRow = document.createElement("tr")
     const tableHeaders = [" ", "Team", "MP", "W", "D", "L", "GF", "GA", "GD", "Pts"]
     tableHeaders.forEach(element => {
-        //create badge cell
+        //creates header badge cell
         if (tableHeaders[0] === element) {
             const tableCell = document.createElement("td")
             tableCell.classList.add("team-badge-td")
             tableCell.textContent = element
             tableRow.appendChild(tableCell)
-        //create team name cell
+        //creates header team name cell
         } else if (tableHeaders[1] === element) {
             const tableCell = document.createElement("td")
             tableCell.classList.add("team-name")
             tableCell.textContent = element
             tableRow.appendChild(tableCell)
-        //create stats cell 
+        //creates header stats cells 
         } else {
             const tableCell = document.createElement("td")
             tableCell.classList.add("table-data")
@@ -214,11 +163,13 @@ function createTable(leagueName = "La Liga") {
     table.appendChild(tableRow)
 }
 
+//creates league table rows
 function createTableRows(array) {
     const table = document.getElementById("table")
     array.forEach(team => {
         const tableRow = document.createElement("tr")
         for(const info in team) {
+            //creates badge cell
             if (info === "badge") {
                 const tableCell = document.createElement("td")
                 tableCell.classList.add("team-badge-td")
@@ -227,11 +178,13 @@ function createTableRows(array) {
                 teamBadge.setAttribute("src", team[info])
                 tableCell.appendChild(teamBadge)
                 tableRow.appendChild(tableCell)
+            //creates team name cell
             } else if (info === "team") {
             const tableCell = document.createElement("td")
             tableCell.classList.add("team-name")
             tableCell.textContent = team[info]
             tableRow.appendChild(tableCell)
+            //creates table stats cells
             } else {
                 const tableCell = document.createElement("td")
                 tableCell.classList.add("table-data")
@@ -241,4 +194,10 @@ function createTableRows(array) {
         }
         table.appendChild(tableRow)
     })
+}
+
+function removeTableAndPlayers() {
+    const tableDiv = document.getElementById("league-table")
+    tableDiv.removeChild(document.getElementById("table"))
+    Array.from(document.getElementsByClassName("player")).forEach(element => element.remove())
 }
