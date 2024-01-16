@@ -5,7 +5,8 @@ document.addEventListener("DOMContentLoaded", e => {
 
     createLeagueDiv()
     createTableRow()
-    createGoalscorersDiv()
+    fetchPlayers()
+    addDropdownEventListener()
 })
 
 //creates league divs and fetches their info
@@ -91,7 +92,7 @@ function createTableRow() {
 
 
 //fetches top 3 goalscorers and top 3 assisters from each league
-function createGoalscorersDiv() {
+function fetchPlayers() {
     fetch("http://127.0.0.1:3000/leagues")
     .then(response => response.json())
     .then(data => {
@@ -113,7 +114,7 @@ function createGoalscorersDiv() {
 }
 
 //Creates a player card for each element in the array, and appendChilds them to a div
-function createPlayerCards (array, div) {
+function createPlayerCards(array, div) {
     array.forEach(professional => {
         const professionalDiv = document.createElement("div")
         professionalDiv.classList.add("player")
@@ -135,7 +136,7 @@ function createPlayerCards (array, div) {
             //adds info to card WITH property text
             } else {
                 const playerInfo = document.createElement("p")
-                playerInfo.textContent = `${info}: ${professional[info]}`;
+                playerInfo.textContent = `${info.toUpperCase()}: ${professional[info]}`;
                 professionalDiv.appendChild(playerInfo)
                 debugger
             }
@@ -143,4 +144,34 @@ function createPlayerCards (array, div) {
         div.appendChild(professionalDiv)
         debugger
     })
+}
+
+function addDropdownEventListener() {
+    const dropdown = document.getElementById("league-dropdown")
+    dropdown.addEventListener("change", (e) => {
+        const selectedOption = dropdown.value;
+        switch (selectedOption) {
+            case "LaLiga":
+                console.log(`Hey ${selectedOption}`)
+                break;
+            case"PremierLeague":
+                console.log(`Hey ${selectedOption}`)
+                break;
+            case "Bundesliga": 
+                console.log(`Hey ${selectedOption}`)
+                break;
+            case "Ligue1":
+                console.log(`Hey ${selectedOption}`)
+                break;
+            case "SeriaA":
+                console.log(`Hey ${selectedOption}`)
+                break;
+            default:
+                console.log(`I don't know you, ${selectedOption}`)
+        }
+    })
+}
+
+function dropdownCallbackFunction(dropdownValue) {
+
 }
