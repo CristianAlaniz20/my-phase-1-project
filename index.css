@@ -9,6 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 25px;
+  font-size: x-large;
 }
 
 #title-img {
@@ -39,23 +40,52 @@ body {
 
 .league-country {
   padding: 25px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 
-#league-table {
-  height: 1300px;
-  width: fit-content;
-}
-
-#team-container {
+#team-container-headers {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.stats {
-  height: 1300px;
-  width: 400px;
+.headers {
   text-align: center;
+  height: auto;
+  width: 33%;
+  padding: 25px;
+  margin: 5rem 0px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+
+}
+
+.header-image {
+  height: 30px;
+  width: auto;
+}
+
+#team-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+#league-table {
+  height: fit-content;
+  width: fit-content;
+  margin: 0px 4rem;
+  font-size: 20px;
+}
+
+.stats {
+  height: fit-content;
+  width: 33%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
 }
 
 tr {
@@ -63,7 +93,13 @@ tr {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid white;
-  padding-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+th {
+  padding-bottom: 10px;
+  font-size: 40px;
 }
 
 .team-badge {
@@ -95,11 +131,14 @@ tr {
 }
 
 .player {
-  text-align: center;
-  border: grey solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: white solid 1px;
   padding: 1rem;
   width: 15rem;
-  height: 25rem;
-  margin: 1rem 2rem;
-  box-shadow: 3px 4px #e04b52;
+  height: 20rem;
+  margin-bottom: 1rem;
+  box-shadow: 3px 4px white;
 }

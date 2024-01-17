@@ -55,6 +55,18 @@
                     "pts": "71"
                 }, 
                 {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Villarreal_CF_logo-en.svg/1200px-Villarreal_CF_logo-en.svg.png",
+                    "team": "Villareal",
+                    "mp": "38",
+                    "w": "19",
+                    "l": "12",
+                    "d": "7",
+                    "gf": "59",
+                    "ga": "40",
+                    "gd": "19",
+                    "pts": "64"
+                },
+                {
                     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Real_betis_logo.svg/800px-Real_betis_logo.svg.png",
                     "team": "Real Betis",
                     "mp": "38",
