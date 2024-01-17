@@ -4,8 +4,6 @@ document.addEventListener("DOMContentLoaded", e => {
     document.querySelector("body").appendChild(h2);
 
     createLeagueDiv()
-    //createTableRow()
-    //fetchPlayers()
     addDropdownEventListener()
     fetchDropdownOptionData()
 
