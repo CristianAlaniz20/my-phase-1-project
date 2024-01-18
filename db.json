@@ -251,8 +251,8 @@
                 {
                     "name": "Robert Lewandowski",
                     "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQEgG-fWVHGoCPg_zPnNGLqE-_oG_JAws6hzY35vLNDHFCAzTr9j_8UitxXTp5-SZegavhFj4knXMNnMs8lBEZab_gondOYBfGuyg",
-                    "club": "FC Barcelona",
-                    "nationality": "Poland",
+                    "club": ["FC Barcelona", "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1200px-FC_Barcelona_%28crest%29.svg.png"],
+                    "nationality": ["Poland", "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/1200px-Flag_of_Poland.svg.png"],
                     "goals": 23
                 },
                 {

@@ -96,12 +96,59 @@ function createPlayerCards(array, div) {
         const professionalDiv = document.createElement("div")
         professionalDiv.classList.add("player")
         for (const info in professional) {
+            switch (info) {
+                case "name":
+                    const playerName = document.createElement("p")
+                    playerName.textContent = `${professional[info]}`;
+                    professionalDiv.appendChild(playerName)
+                    break;
+                case "club":
+                case "nationality":
+                    const playerImgP = document.createElement("p")
+                    professional[info].forEach(element => {
+                        if (element === professional[info][0]) {
+                            const clubName = element
+                            playerImgP.textContent = `${info.toUpperCase()}: ${clubName}`
+                            debugger
+                        } else {
+                            const image = createImage("player-personal-info-image", element)
+                            playerImgP.appendChild(image)
+                            debugger
+                        }
+                    })
+                    professionalDiv.appendChild(playerImgP)
+                    break;
+                case "picture":
+                    const playerPic = createImage("player-pic", professional[info])
+                    professionalDiv.appendChild(playerPic)
+                    break;
+                default:
+                    const playerInfo = document.createElement("p")
+                    playerInfo.textContent = `${info.toUpperCase()}: ${professional[info]}`;
+                    professionalDiv.appendChild(playerInfo)
+            }
             //adds info to card WITHOUT property text
-            if (info === "name") {
+            /*if (info === "name") {
                 const playerInfo = document.createElement("p")
                 playerInfo.textContent = `${professional[info]}`;
                 professionalDiv.appendChild(playerInfo)
-            //create img tag for player pic and adds to card
+            //create img tag for club badge/nationality flag and p element for both
+            } else if (info === "club" || info === "nationality") {
+                const playerInfo = document.createElement("p")
+                professional[info].forEach(element => {
+                    if (element === professional[info][0]) {
+                        const clubName = element
+                        playerInfo.textContent = `${info.toUpperCase()}: ${clubName}`
+                        debugger
+                    } else {
+                        const image = createImage("player-personal-info-image", element)
+                        playerInfo.appendChild(image)
+                        debugger
+                    }
+                })
+                professionalDiv.appendChild(playerInfo)
+                debugger
+            ////create img tag for player pic and adds to card
             } else if (info === "picture") {
                 const playerPic = createImage("player-pic", professional[info])
                 professionalDiv.appendChild(playerPic)
@@ -110,8 +157,7 @@ function createPlayerCards(array, div) {
                 const playerInfo = document.createElement("p")
                 playerInfo.textContent = `${info.toUpperCase()}: ${professional[info]}`;
                 professionalDiv.appendChild(playerInfo)
-                console.log(this)
-            }
+            }*/
         }
         div.appendChild(professionalDiv)
     })
@@ -252,19 +298,3 @@ function randomColor () {
 
 //["FC Barcelona", "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1200px-FC_Barcelona_%28crest%29.svg.png"]
 //["Poland", "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/1200px-Flag_of_Poland.svg.png"]
-//adds info to card WITH property text
-            /*} else if (info === "club" || info === "nationality") {
-                const playerInfo = document.createElement("p")
-                professional[info].forEach(element => {
-                    if (element === professional[info][0]) {
-                        const clubName = element
-                        playerInfo.textContent = `${info.toUpperCase()}: ${clubName}`
-                        debugger
-                    } else {
-                        const image = createImage("player-personal-info-image", element)
-                        playerInfo.appendChild(image)
-                        debugger
-                    }
-                })
-                professionalDiv.appendChild(playerInfo)
-                debugger*/
