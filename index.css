@@ -26,6 +26,12 @@ h1 {
   margin: 0px 10px;
 }
 
+#message {
+  color: navy;
+  font-size: smaller;
+  text-align: center;
+}
+
 #league-container {
   background: white;
   color: black;
@@ -156,4 +162,8 @@ th {
 p {
   display: flex;
   justify-content: center;
+}
+
+#button-and-dropdown {
+  text-align: center;
 }

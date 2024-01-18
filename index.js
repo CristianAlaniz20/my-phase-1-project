@@ -1,12 +1,10 @@
 document.addEventListener("DOMContentLoaded", e => {
-    const h2 = document.createElement("h2");
-    h2.textContent = "2022/2023 Season";
-    document.querySelector("body").appendChild(h2);
-
     createLeagueDiv()
     addDropdownEventListener()
     fetchDropdownOptionData()
     moveBall()
+    mouseOverEvent()
+    mouseOutEvent()
 })
 
 //creates league divs and fetches their info
@@ -112,6 +110,7 @@ function createPlayerCards(array, div) {
                 const playerInfo = document.createElement("p")
                 playerInfo.textContent = `${info.toUpperCase()}: ${professional[info]}`;
                 professionalDiv.appendChild(playerInfo)
+                console.log(this)
             }
         }
         div.appendChild(professionalDiv)
@@ -192,12 +191,14 @@ function createTableCell(name, value) {
 let intervalId;
 let clickCount = 0;
 
+//moves the ball
 function moveBall() {
     const button = document.getElementById("move-ball")
     button.addEventListener("click", e => {
         const ball = document.getElementById("ball")
         let pos = 0;
         clearInterval(intervalId)
+        //move ball to the right
         if (clickCount % 2 === 0) {
             intervalId = setInterval(() => {
                 if (pos === 650) {
@@ -208,6 +209,7 @@ function moveBall() {
                 }
             })            
             clickCount = 1;
+        //move ball to the left
         } else {
             pos = 650
             intervalId = setInterval(() => {
@@ -220,8 +222,33 @@ function moveBall() {
             })
             clickCount = 0;
         }
-    });
-};
+    })
+}
+
+const h1 = document.getElementById("title")
+
+//creates mousever event
+function mouseOverEvent() {
+    h1.addEventListener("mouseover", e => {
+        h1.style.color = randomColor();
+    })
+}
+
+//creates mouseout event
+function mouseOutEvent() {
+    h1.addEventListener("mouseout", e => {
+        h1.style.color = "white";
+    })
+}
+
+function randomColor () {
+    let r = Math.floor(Math.random() * 256)
+    let g = Math.floor(Math.random() * 256)
+    let b = Math.floor(Math.random() * 256)
+
+    const color = "rgb(" + r + ", " + g + ", " + b + ")"
+    return color
+}
 
 //["FC Barcelona", "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1200px-FC_Barcelona_%28crest%29.svg.png"]
 //["Poland", "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/1200px-Flag_of_Poland.svg.png"]
