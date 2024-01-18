@@ -258,15 +258,15 @@
                 {
                     "name": "Karim Benzema",
                     "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRjyE3bd3D3y7cCYvrsdEjlZt3HLivnb1C6qLqeIruDiywJ9c0LfSahvBKd9dl2a6ydgnuHLd07WPbczyGcZNFaBi665Drsk-yegg",
-                    "club": "Real Madrid",
-                    "nationality": "France",
+                    "club": ["Real Madrid", "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg.png"],
+                    "nationality": ["France", "https://www.mappr.co/wp-content/uploads/2023/12/french-flag-576x384.png"],
                     "goals": 19
                 },
                 {
                     "name": "Joselu",
                     "picture": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRXQrHpN0OqdQtdGGbTGH6dzZYbDa6S8CkEXiQSwOns57gJLW2o8mt13XQcwUmDGHeC3xPXgS3BBkZuugZyhtpZMftuvPMzK2TVVA",
-                    "club": "Espanyol",
-                    "nationality": "Spain",
+                    "club": ["Espanyol", "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/Rcd_espanyol_logo.svg/1200px-Rcd_espanyol_logo.svg.png"],
+                    "nationality": ["Spain", "https://upload.wikimedia.org/wikipedia/commons/8/89/Bandera_de_Espa%C3%B1a.svg"],
                     "goals": 16
                 }
             ],
@@ -274,22 +274,22 @@
                 {
                     "name": "Antoine Griezman",
                     "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQnJzHmd1Nxf6s01YNVBNVwRbHatMktygBKtAzubDuS6ddywQiPPwn8lypA6WbBJGTr-OnfMBJTlkfeCc-IaRjqA12m6hT5k0YcMw",
-                    "club": "Atletico Madrid",
-                    "nationality": "France",
+                    "club": ["Atletico Madrid", "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Atletico_Madrid_2017_logo.svg/1200px-Atletico_Madrid_2017_logo.svg.png"],
+                    "nationality": ["France", "https://www.mappr.co/wp-content/uploads/2023/12/french-flag-576x384.png"],
                     "assists": 16
                 },
                 {
                     "name": "Mikel Merino",
                     "picture": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQY4n-CiCCY8-5R9HqRoywNmLXseQ1H7kZusstyThCKTfRiwmHTqW5hY3GW1vrOBuLM9A5_P28JSxsRwH2LpkVizTgCC5QsQIp2Aw",
-                    "club": "Real Sociedad",
-                    "nationality": "Spain",
+                    "club": ["Real Sociedad", "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Real_Sociedad_logo.svg/1200px-Real_Sociedad_logo.svg.png"],
+                    "nationality": ["Spain", "https://upload.wikimedia.org/wikipedia/commons/8/89/Bandera_de_Espa%C3%B1a.svg"],
                     "assists": 9
                 },
                 {
                     "name": "Vinicius Junior",
                     "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQgZZJYsd-CO_V7Hpxrrpdp3EtVBPBL7ytBXZdlCmk7NaUtOTB-0lf9U2J3ZXOc6YA0YVHaWnnnWmGAQYvou15Acsi2XFvcdYr90A",
-                    "club": "Real Madrid",
-                    "nationality": "Brazil",
+                    "club": ["Real Madrid", "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg.png"],
+                    "nationality": ["Brazil", "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/640px-Flag_of_Brazil.svg.png"],
                     "goals": 16
                 }
             ]
@@ -545,22 +545,22 @@
                 {
                     "name": "Erling Haaland",
                     "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTZi214DS2tos__MHXdINFZYNfneDe3BCWDusOzaqbCmaKBykuivS_00LtcuHend0HIcViVwp1Tn1UtuDmQR9OS6ldzN-fpcCe8UQ",
-                    "club": "Manchester City",
-                    "nationality": "Norway",
+                    "club": ["Manchester City", "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png"],
+                    "nationality": ["Norway", "https://www.norden.org/sites/default/files/styles/content_size_800/public/2021-03/Flag_of_Norway.png?itok=tZeuqk6H"],
                     "goals": 36
                 },
                 {
                     "name": "Harry Kane",
                     "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSX63oNwyHo7fzWLoGJKl-kf4cuxwbRn8pOLzhxrrKpjktoks5B8M4bkqPql07JGnvyjAGuCMtlTAFpYeP9XQw-lB-0rWHvdybTAg",
-                    "club": "Tottenham",
-                    "nationality": "England",
+                    "club": ["Tottenham", "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Tottenham_Hotspur.svg/1200px-Tottenham_Hotspur.svg.png"],
+                    "nationality": ["England", "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/1280px-Flag_of_England.svg.png"],
                     "goals": 30
                 },
                 {
                     "name": "Ivan Toney",
                     "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSNbxl2RDDzyrkoj8GG_WZSonQS4NLsyyKsWqpE7xu5JpnNwS0GHsBuZZ-T0eB5zNCvexgzwE2QJOxGrB0teSQUNLSBi8OUb_1eRw",
-                    "club": "Brentford",
-                    "nationality": "England",
+                    "club": ["Brentford", "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Brentford_FC_crest.svg/1200px-Brentford_FC_crest.svg.png"],
+                    "nationality": ["England", "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/1280px-Flag_of_England.svg.png"],
                     "goals": 20
                 }
             ],
@@ -568,22 +568,22 @@
                 {
                     "name": "Kevin De Bruyne",
                     "picture": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSue_h-TtVrA0a7RA5HpaU6ZYIe3EKNFztXn2MU6GgD1zSe86Mu8FWbmSwEHfiAAxACIgUD_3D0y2ipgL-bnCr8ecC0S72D4QdZbw",
-                    "club": "Manchester City",
-                    "nationality": "Belgium",
+                    "club": ["Manchester City", "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png"],
+                    "nationality": ["Belgium", "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/692px-Flag_of_Belgium.svg.png"],
                     "assists": 16
                 },
                 {
                     "name": "Leandro Trossard",
                     "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTmRRLPUIcxZH3NTS9A20NbuabtZD5eR695UdeI7cYbhQkUifxlYUS-6G19IfQ7I-0tR37CcNaPGmh2SJy-KXl9-Oq6t5lCqMjSYA",
-                    "club": "Brighton",
-                    "nationality": "Belgium",
+                    "club": ["Brighton", "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Brighton_%26_Hove_Albion_logo.svg/1200px-Brighton_%26_Hove_Albion_logo.svg.png"],
+                    "nationality": ["Belgium", "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/692px-Flag_of_Belgium.svg.png"],
                     "assists": 12
                 },
                 {
                     "name": "Mohamed Salah",
                     "picture": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQhnC0f5Oin-hID_3pMlP7O0wMi_6UxNhv8573pj1pUOLdxQbM0GSuzwRKAcss_sMUSmODTPMMYlQy8EzV0_UMJ2nfWEWYRaSo3How",
-                    "club": "Liverpool",
-                    "nationality": "Egypt",
+                    "club": ["Liverpool", "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/1200px-Liverpool_FC.svg.png"],
+                    "nationality": ["Egypt", "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/255px-Flag_of_Egypt.svg.png"],
                     "goals": 12
                 }
             ]
@@ -815,22 +815,22 @@
                 {
                     "name": "Christopher Nkunku",
                     "picture": "https://img.a.transfermarkt.technology/portrait/big/344381-1663686834.jpg?lm=1",
-                    "club": "RB Leipzig",
-                    "nationality": "France",
+                    "club": ["RB Leipzig", "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/RB_Leipzig_2014_logo.svg/1200px-RB_Leipzig_2014_logo.svg.png"],
+                    "nationality": ["France", "https://www.mappr.co/wp-content/uploads/2023/12/french-flag-576x384.png"],
                     "goals": 16
                 },
                 {
                     "name": "Niclas Fullkrug",
                     "picture": "https://sortitoutsidospaces.b-cdn.net/megapacks/cutoutfaces/originals/2023.15/92018043.png",
-                    "club": "SV Werder Bremen",
-                    "nationality": "Germany",
+                    "club": ["SV Werder Bremen", "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/SV-Werder-Bremen-Logo.svg/1200px-SV-Werder-Bremen-Logo.svg.png"],
+                    "nationality": ["Germany", "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png"],
                     "goals": 16
                 },
                 {
                     "name": "Randal Kolo Muani",
                     "picture": "https://sortitoutsidospaces.b-cdn.net/megapacks/cutoutfaces/originals/2022.13/48043873.png",
-                    "club": "Eintracht Frankfurt",
-                    "nationality": "France",
+                    "club": ["Eintracht Frankfurt", "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Eintracht_Frankfurt_Logo.svg/1200px-Eintracht_Frankfurt_Logo.svg.png"],
+                    "nationality": ["France", "https://www.mappr.co/wp-content/uploads/2023/12/french-flag-576x384.png"],
                     "goals": 15
                 }
             ],
@@ -838,22 +838,22 @@
                 {
                     "name": "Raphael Guerriero",
                     "picture": "https://b.fssta.com/uploads/application/soccer/headshots/20763.png",
-                    "club": "Borussia Dortmund",
-                    "nationality": "Portugal",
+                    "club": ["Borussia Dortmund", "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/1200px-Borussia_Dortmund_logo.svg.png"],
+                    "nationality": ["Portugal", "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/255px-Flag_of_Portugal.svg.png"],
                     "assists": 12
                 },
                 {
                     "name": "Randal Kolo Muani",
                     "picture": "https://sortitoutsidospaces.b-cdn.net/megapacks/cutoutfaces/originals/2022.13/48043873.png",
-                    "club": "Eintracht Frankfurt",
-                    "nationality": "France",
+                    "club": ["Eintracht Frankfurt", "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Eintracht_Frankfurt_Logo.svg/1200px-Eintracht_Frankfurt_Logo.svg.png"],
+                    "nationality": ["France", "https://www.mappr.co/wp-content/uploads/2023/12/french-flag-576x384.png"],
                     "assists": 11
                 },
                 {
                     "name": "Florian Kainz",
                     "picture": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTPIUSB7MEUmO_BFQ3FAezS7a6mHG01wje4wGXdbrOG6COWjv0JgW8aBJufy9K9l8qh-smUzowny26Y83_XnB8-y0lSkecQrc8CWyA",
-                    "club": "FC Koln",
-                    "nationality": "Austria",
+                    "club": ["FC Koln", "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg"],
+                    "nationality": ["Austria", "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/255px-Flag_of_Austria.svg.png"],
                     "goals": 10
                 }
             ]
@@ -1109,22 +1109,22 @@
                 {
                     "name": "Kylian Mbappe",
                     "picture": "https://b.fssta.com/uploads/application/soccer/headshots/40670.vresize.350.350.medium.91.png",
-                    "club": "Paris Saint-Germain",
-                    "nationality": "France",
+                    "club": ["Paris Saint-Germain", "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/1200px-Paris_Saint-Germain_F.C..svg.png"],
+                    "nationality": ["France", "https://www.mappr.co/wp-content/uploads/2023/12/french-flag-576x384.png"],
                     "goals": 29
                 },
                 {
                     "name": "Alexandre Lacazette",
                     "picture": "https://sortitoutsidospaces.b-cdn.net/megapacks/cutoutfaces/originals/10.11/34011687.png",
-                    "club": "Lyon",
-                    "nationality": "France",
+                    "club": ["Lyon", "https://upload.wikimedia.org/wikipedia/en/1/1c/Olympique_Lyonnais_logo.svg"],
+                    "nationality": ["France", "https://www.mappr.co/wp-content/uploads/2023/12/french-flag-576x384.png"],
                     "goals": 27
                 },
                 {
                     "name": "Jonathan David",
                     "picture": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSGBOcFCCTmx5sAMI6SQA5egVLUANQMgJEHK7vgIKQlCF-AS2vyI4mbDWNIpiVIbOGZtn8KsaI5vlbVYDLOMknUaBkXt1kOoX6Whw",
-                    "club": "LOSC Lille",
-                    "nationality": "Canada",
+                    "club": ["LOSC Lille", "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Lille_OSC_2018_logo.svg/1200px-Lille_OSC_2018_logo.svg.png"],
+                    "nationality": ["Canada", "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg"],
                     "goals": 24
                 }
             ],
@@ -1132,22 +1132,22 @@
                 {
                     "name": "Lionel Messi",
                     "picture": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRZn-RS1CjoDmZZM7Bb9LgWA9mkFR3lnS0UK64Mkcse4qtTFO5Z2xIjLwvO_NTVJjv8fE5mkLWwdDPj-it26KofjRoCurh1QaVlMA",
-                    "club": "Paris Saint-Germain",
-                    "nationality": "Argentina",
+                    "club": ["Paris Saint-Germain", "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/1200px-Paris_Saint-Germain_F.C..svg.png"],
+                    "nationality": ["Argentina", "https://cdn.britannica.com/18/147118-050-7F820ED5/flag-Argentina-2010.jpg?w=300&h=169&c=crop"],
                     "assists": 16
                 },
                 {
                     "name": "Neymar",
                     "picture": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRWjPt7pkva0lOxzZcsKb0fpDiEt3JK9dYOTVbmPiiUjnWLJMY2xrfTb1zjWDWSZfSvc1hlvyYu-YtfEbGRkIF_7aFX4NuYt27V8dE",
-                    "club": "Paris Saint-Germain",
-                    "nationality": "Brazil",
+                    "club": ["Paris Saint-Germain", "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/1200px-Paris_Saint-Germain_F.C..svg.png"],
+                    "nationality": ["Brazil", "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/640px-Flag_of_Brazil.svg.png"],
                     "assists": 11
                 },
                 {
                     "name": "Benjamin Bourigeaud",
                     "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcT2LPvBRabj3x6JHX7gv4YAQaKlutRs2jyMcNZcCjTk3lDxXm10xl0sbfSIZVIzOqYmtqvjaGKVoJ2N4QleYyWlZQypUiOyN9Pvv0w",
-                    "club": "Rennes",
-                    "nationality": "France",
+                    "club": ["Rennes", "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Stade_Rennais_FC.svg/1200px-Stade_Rennais_FC.svg.png"],
+                    "nationality": ["France", "https://www.mappr.co/wp-content/uploads/2023/12/french-flag-576x384.png"],
                     "goals": 10
                 }
             ]
@@ -1403,22 +1403,22 @@
                 {
                     "name": "Victor Osimhen",
                     "picture": "https://i.goalzz.com/?i=ashrafzamrani%2Fvictor+osimhen.gif",
-                    "club": "Napoli",
-                    "nationality": "Nigeria",
+                    "club": ["Napoli", "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/SSC_Neapel.svg/1024px-SSC_Neapel.svg.png"],
+                    "nationality": ["Nigeria", "https://upload.wikimedia.org/wikipedia/commons/b/b6/Flag_of_Nigeria.png"],
                     "goals": 26
                 },
                 {
                     "name": "Lautaro Martinez",
                     "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSqxjC9I0oT_k6XxZvu88b_E2RUyPCiWiw338qgeHxAQlhNMqRzO7U2SbuwzRNw2Aw6YVR0r0eTZmPOd98xFJUjUUQ8ZoD7Xy27HQ",
-                    "club": "Inter Milan",
-                    "nationality": "Argentina",
+                    "club": ["Inter Milan", "https://cdn.vox-cdn.com/thumbor/2fULY-8xfUKZKPV8Pt1Q1mzRzEA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22407687/09ABCFC9_621E_4190_801B_92EDE17085BD.jpeg"],
+                    "nationality": ["Argentina", "https://cdn.britannica.com/18/147118-050-7F820ED5/flag-Argentina-2010.jpg?w=300&h=169&c=crop"],
                     "goals": 16
                 },
                 {
                     "name": "Boulaye Dia",
                     "picture": "https://sortitoutsidospaces.b-cdn.net/media/n3I6lhsA0Yp66pt8uvwm5P7uwu3DuDPlHF4L9vc5.png",
-                    "club": "Salernitana",
-                    "nationality": "Senegal",
+                    "club": ["Salernitana", "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/US_Salernitana_1919_logo.svg/1200px-US_Salernitana_1919_logo.svg.png"],
+                    "nationality": ["Senegal", "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/2560px-Flag_of_Senegal.svg.png"],
                     "goals": 16
                 }
             ],
@@ -1426,22 +1426,22 @@
                 {
                     "name": "Khvicha Kvaratskhelia",
                     "picture": "https://sortitoutsidospaces.b-cdn.net/media/UVfGIrDkpA7OzNvII4EvEbH76lP1Py6cz0UxpFEG.png",
-                    "club": "Napoli",
-                    "nationality": "Georgia",
+                    "club": ["Napoli", "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/SSC_Neapel.svg/1024px-SSC_Neapel.svg.png"],
+                    "nationality": ["Georgia", "https://cdn.britannica.com/17/4717-050-0B745462/Flag-Republic-of-Georgia.jpg"],
                     "assists": 10
                 },
                 {
                     "name": "Filip Kostic",
                     "picture": "https://i.goalzz.com/?i=o%2Fp%2F98%2F310%2Ffilip-kostic-1.png",
-                    "club": "Juventus",
-                    "nationality": "Serbia",
+                    "club": ["Juventus", "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Juventus_FC_2017_logo_%28white_on_black%29.svg/1200px-Juventus_FC_2017_logo_%28white_on_black%29.svg.png"],
+                    "nationality": ["Serbia", "https://cdn.britannica.com/39/94839-004-EEB20F36/Flag-Serbia.jpg"],
                     "assists": 8
                 },
                 {
                     "name": "Musa Barrow",
                     "picture": "https://cdn.futbin.com/content/fifa24/img/players/242374.png?v=23",
-                    "club": "Bologna",
-                    "nationality": "Gambia",
+                    "club": ["Bologna", "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bologna_F.C._1909_logo.svg/1200px-Bologna_F.C._1909_logo.svg.png"],
+                    "nationality": ["Gambia", "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_The_Gambia.svg/2560px-Flag_of_The_Gambia.svg.png"],
                     "goals": 8
                 }
             ]

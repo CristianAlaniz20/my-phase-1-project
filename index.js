@@ -97,11 +97,18 @@ function createPlayerCards(array, div) {
         professionalDiv.classList.add("player")
         for (const info in professional) {
             switch (info) {
+                //create player name p element
                 case "name":
                     const playerName = document.createElement("p")
                     playerName.textContent = `${professional[info]}`;
                     professionalDiv.appendChild(playerName)
                     break;
+                //create player picture p element 
+                case "picture":
+                    const playerPic = createImage("player-pic", professional[info])
+                    professionalDiv.appendChild(playerPic)
+                    break;
+                //create club and nationality p elements with images
                 case "club":
                 case "nationality":
                     const playerImgP = document.createElement("p")
@@ -118,46 +125,12 @@ function createPlayerCards(array, div) {
                     })
                     professionalDiv.appendChild(playerImgP)
                     break;
-                case "picture":
-                    const playerPic = createImage("player-pic", professional[info])
-                    professionalDiv.appendChild(playerPic)
-                    break;
+                //create goals p element
                 default:
                     const playerInfo = document.createElement("p")
                     playerInfo.textContent = `${info.toUpperCase()}: ${professional[info]}`;
                     professionalDiv.appendChild(playerInfo)
             }
-            //adds info to card WITHOUT property text
-            /*if (info === "name") {
-                const playerInfo = document.createElement("p")
-                playerInfo.textContent = `${professional[info]}`;
-                professionalDiv.appendChild(playerInfo)
-            //create img tag for club badge/nationality flag and p element for both
-            } else if (info === "club" || info === "nationality") {
-                const playerInfo = document.createElement("p")
-                professional[info].forEach(element => {
-                    if (element === professional[info][0]) {
-                        const clubName = element
-                        playerInfo.textContent = `${info.toUpperCase()}: ${clubName}`
-                        debugger
-                    } else {
-                        const image = createImage("player-personal-info-image", element)
-                        playerInfo.appendChild(image)
-                        debugger
-                    }
-                })
-                professionalDiv.appendChild(playerInfo)
-                debugger
-            ////create img tag for player pic and adds to card
-            } else if (info === "picture") {
-                const playerPic = createImage("player-pic", professional[info])
-                professionalDiv.appendChild(playerPic)
-            //adds info to card WITH property text
-            } else {
-                const playerInfo = document.createElement("p")
-                playerInfo.textContent = `${info.toUpperCase()}: ${professional[info]}`;
-                professionalDiv.appendChild(playerInfo)
-            }*/
         }
         div.appendChild(professionalDiv)
     })
@@ -287,6 +260,7 @@ function mouseOutEvent() {
     })
 }
 
+//generate a random color
 function randomColor () {
     let r = Math.floor(Math.random() * 256)
     let g = Math.floor(Math.random() * 256)
@@ -295,6 +269,3 @@ function randomColor () {
     const color = "rgb(" + r + ", " + g + ", " + b + ")"
     return color
 }
-
-//["FC Barcelona", "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1200px-FC_Barcelona_%28crest%29.svg.png"]
-//["Poland", "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/1200px-Flag_of_Poland.svg.png"]

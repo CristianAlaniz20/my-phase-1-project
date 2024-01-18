@@ -162,8 +162,10 @@ th {
 p {
   display: flex;
   justify-content: center;
+  font-style: italic;
 }
 
 #button-and-dropdown {
   text-align: center;
+  padding-top: 50px;
 }
