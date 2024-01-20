@@ -1,0 +1,1451 @@
+{
+    "leagues": [
+        {
+            "id": 1,
+            "name": "La Liga",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/LaLiga_logo_2023.svg/2048px-LaLiga_logo_2023.svg.png",
+            "country": "Spain",
+            "table": [
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1200px-FC_Barcelona_%28crest%29.svg.png",
+                    "team": "FC Barcelona",
+                    "mp": "38",
+                    "w": "28",
+                    "l": "6",
+                    "d": "4",
+                    "gf": "70",
+                    "ga": "20",
+                    "gd": "50",
+                    "pts": "88"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg.png",
+                    "team": "Real Madrid",
+                    "mp": "38",
+                    "w": "24",
+                    "l": "8",
+                    "d": "6",
+                    "gf": "75",
+                    "ga": "36",
+                    "gd": "39",
+                    "pts": "78"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Atletico_Madrid_2017_logo.svg/1200px-Atletico_Madrid_2017_logo.svg.png",
+                    "team": "Atletico Madrid",
+                    "mp": "38",
+                    "w": "23",
+                    "l": "7",
+                    "d": "8",
+                    "gf": "70",
+                    "ga": "33",
+                    "gd": "37",
+                    "pts": "77"
+                }, 
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Real_Sociedad_logo.svg/1200px-Real_Sociedad_logo.svg.png",
+                    "team": "Real Sociedad",
+                    "mp": "38",
+                    "w": "21",
+                    "l": "9",
+                    "d": "8",
+                    "gf": "51",
+                    "ga": "35",
+                    "gd": "16",
+                    "pts": "71"
+                }, 
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Villarreal_CF_logo-en.svg/1200px-Villarreal_CF_logo-en.svg.png",
+                    "team": "Villareal",
+                    "mp": "38",
+                    "w": "19",
+                    "l": "12",
+                    "d": "7",
+                    "gf": "59",
+                    "ga": "40",
+                    "gd": "19",
+                    "pts": "64"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Real_betis_logo.svg/800px-Real_betis_logo.svg.png",
+                    "team": "Real Betis",
+                    "mp": "38",
+                    "w": "17",
+                    "l": "12",
+                    "d": "9",
+                    "gf": "46",
+                    "ga": "41",
+                    "gd": "5",
+                    "pts": "60"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Osasuna_logo.svg/1200px-Osasuna_logo.svg.png",
+                    "team": "Osasuna",
+                    "mp": "38",
+                    "w": "15",
+                    "l": "15",
+                    "d": "8",
+                    "gf": "37",
+                    "ga": "42",
+                    "gd": "-5",
+                    "pts": "53"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Club_Athletic_Bilbao_logo.svg/1200px-Club_Athletic_Bilbao_logo.svg.png",
+                    "team": "Athletic Club",
+                    "mp": "38",
+                    "w": "14",
+                    "l": "15",
+                    "d": "9",
+                    "gf": "47",
+                    "ga": "43",
+                    "gd": "4",
+                    "pts": "51"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Rcd_mallorca.svg/1200px-Rcd_mallorca.svg.png",
+                    "team": "Mallorca",
+                    "mp": "38",
+                    "w": "14",
+                    "l": "16",
+                    "d": "8",
+                    "gf": "37",
+                    "ga": "43",
+                    "gd": "-6",
+                    "pts": "50"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/7/7a/Girona_FC_new_logo.png",
+                    "team": "Girona",
+                    "mp": "38",
+                    "w": "13",
+                    "l": "15",
+                    "d": "10",
+                    "gf": "58",
+                    "ga": "55",
+                    "gd": "3",
+                    "pts": "49"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Rayo_Vallecano_logo.svg/1200px-Rayo_Vallecano_logo.svg.png",
+                    "team": "Rayo Vallecano",
+                    "mp": "38",
+                    "w": "13",
+                    "l": "15",
+                    "d": "10",
+                    "gf": "45",
+                    "ga": "53",
+                    "gd": "-8",
+                    "pts": "49"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Sevilla_FC_logo.svg/1200px-Sevilla_FC_logo.svg.png",
+                    "team": "Sevilla",
+                    "mp": "38",
+                    "w": "13",
+                    "l": "15",
+                    "d": "10",
+                    "gf": "47",
+                    "ga": "54",
+                    "gd": "-7",
+                    "pts": "49"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/RC_Celta_de_Vigo_logo.svg/1200px-RC_Celta_de_Vigo_logo.svg.png",
+                    "team": "Celta Vigo",
+                    "mp": "38",
+                    "w": "11",
+                    "l": "17",
+                    "d": "10",
+                    "gf": "43",
+                    "ga": "53",
+                    "gd": "-10",
+                    "pts": "43"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/C%C3%A1diz_CF_logo.svg/1200px-C%C3%A1diz_CF_logo.svg.png",
+                    "team": "Cadiz",
+                    "mp": "38",
+                    "w": "10",
+                    "l": "16",
+                    "d": "12",
+                    "gf": "30",
+                    "ga": "53",
+                    "gd": "-23",
+                    "pts": "42"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Getafe_logo.svg/1200px-Getafe_logo.svg.png",
+                    "team": "Getafe",
+                    "mp": "38",
+                    "w": "10",
+                    "l": "16",
+                    "d": "12",
+                    "gf": "34",
+                    "ga": "45",
+                    "gd": "-11",
+                    "pts": "42"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Valenciacf.svg/1200px-Valenciacf.svg.png",
+                    "team": "Valencia",
+                    "mp": "38",
+                    "w": "11",
+                    "l": "18",
+                    "d": "9",
+                    "gf": "42",
+                    "ga": "45",
+                    "gd": "-3",
+                    "pts": "42"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/UD_Almeria_logo.svg/1200px-UD_Almeria_logo.svg.png",
+                    "team": "Almeria",
+                    "mp": "38",
+                    "w": "11",
+                    "l": "19",
+                    "d": "8",
+                    "gf": "49",
+                    "ga": "65",
+                    "gd": "-16",
+                    "pts": "41"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/c/c5/Shield_of_Real_Valladolid.png",
+                    "team": "Valladolid",
+                    "mp": "38",
+                    "w": "11",
+                    "l": "20",
+                    "d": "7",
+                    "gf": "33",
+                    "ga": "63",
+                    "gd": "-30",
+                    "pts": "40"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/Rcd_espanyol_logo.svg/1200px-Rcd_espanyol_logo.svg.png",
+                    "team": "Espanyol",
+                    "mp": "38",
+                    "w": "8",
+                    "l": "17",
+                    "d": "13",
+                    "gf": "52",
+                    "ga": "69",
+                    "gd": "-17",
+                    "pts": "37"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Elche_CF_logo.svg/1200px-Elche_CF_logo.svg.png",
+                    "team": "Elche",
+                    "mp": "38",
+                    "w": "5",
+                    "l": "23",
+                    "d": "10",
+                    "gf": "30",
+                    "ga": "67",
+                    "gd": "-37",
+                    "pts": "25"
+                }
+            ],    
+            "top3Goalscorers": [
+                {
+                    "name": "Robert Lewandowski",
+                    "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQEgG-fWVHGoCPg_zPnNGLqE-_oG_JAws6hzY35vLNDHFCAzTr9j_8UitxXTp5-SZegavhFj4knXMNnMs8lBEZab_gondOYBfGuyg",
+                    "club": ["FC Barcelona", "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1200px-FC_Barcelona_%28crest%29.svg.png"],
+                    "nationality": ["Poland", "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/1200px-Flag_of_Poland.svg.png"],
+                    "goals": 23
+                },
+                {
+                    "name": "Karim Benzema",
+                    "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRjyE3bd3D3y7cCYvrsdEjlZt3HLivnb1C6qLqeIruDiywJ9c0LfSahvBKd9dl2a6ydgnuHLd07WPbczyGcZNFaBi665Drsk-yegg",
+                    "club": ["Real Madrid", "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg.png"],
+                    "nationality": ["France", "https://www.mappr.co/wp-content/uploads/2023/12/french-flag-576x384.png"],
+                    "goals": 19
+                },
+                {
+                    "name": "Joselu",
+                    "picture": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRXQrHpN0OqdQtdGGbTGH6dzZYbDa6S8CkEXiQSwOns57gJLW2o8mt13XQcwUmDGHeC3xPXgS3BBkZuugZyhtpZMftuvPMzK2TVVA",
+                    "club": ["Espanyol", "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/Rcd_espanyol_logo.svg/1200px-Rcd_espanyol_logo.svg.png"],
+                    "nationality": ["Spain", "https://upload.wikimedia.org/wikipedia/commons/8/89/Bandera_de_Espa%C3%B1a.svg"],
+                    "goals": 16
+                }
+            ],
+            "top3Assisters": [
+                {
+                    "name": "Antoine Griezman",
+                    "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQnJzHmd1Nxf6s01YNVBNVwRbHatMktygBKtAzubDuS6ddywQiPPwn8lypA6WbBJGTr-OnfMBJTlkfeCc-IaRjqA12m6hT5k0YcMw",
+                    "club": ["Atletico Madrid", "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Atletico_Madrid_2017_logo.svg/1200px-Atletico_Madrid_2017_logo.svg.png"],
+                    "nationality": ["France", "https://www.mappr.co/wp-content/uploads/2023/12/french-flag-576x384.png"],
+                    "assists": 16
+                },
+                {
+                    "name": "Mikel Merino",
+                    "picture": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQY4n-CiCCY8-5R9HqRoywNmLXseQ1H7kZusstyThCKTfRiwmHTqW5hY3GW1vrOBuLM9A5_P28JSxsRwH2LpkVizTgCC5QsQIp2Aw",
+                    "club": ["Real Sociedad", "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Real_Sociedad_logo.svg/1200px-Real_Sociedad_logo.svg.png"],
+                    "nationality": ["Spain", "https://upload.wikimedia.org/wikipedia/commons/8/89/Bandera_de_Espa%C3%B1a.svg"],
+                    "assists": 9
+                },
+                {
+                    "name": "Vinicius Junior",
+                    "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQgZZJYsd-CO_V7Hpxrrpdp3EtVBPBL7ytBXZdlCmk7NaUtOTB-0lf9U2J3ZXOc6YA0YVHaWnnnWmGAQYvou15Acsi2XFvcdYr90A",
+                    "club": ["Real Madrid", "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg.png"],
+                    "nationality": ["Brazil", "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/640px-Flag_of_Brazil.svg.png"],
+                    "goals": 16
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Premier League",
+            "logo": "https://a1.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F23.png",
+            "country": "England",
+            "table": [
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png",
+                    "team": "Manchester City",
+                    "mp": "38",
+                    "w": "28",
+                    "l": "5",
+                    "d": "5",
+                    "gf": "94",
+                    "ga": "33",
+                    "gd": "61",
+                    "pts": "89"
+                }, 
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/1200px-Arsenal_FC.svg.png",
+                    "team": "Arsenal",
+                    "mp": "38",
+                    "w": "26",
+                    "l": "6",
+                    "d": "6",
+                    "gf": "88",
+                    "ga": "43",
+                    "gd": "45",
+                    "pts": "84"
+                }, 
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/1200px-Manchester_United_FC_crest.svg.png",
+                    "team": "Manchester United",
+                    "mp": "38",
+                    "w": "23",
+                    "l": "9",
+                    "d": "6",
+                    "gf": "58",
+                    "ga": "43",
+                    "gd": "15",
+                    "pts": "75"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/1200px-Newcastle_United_Logo.svg.png",
+                    "team": "Newcastle",
+                    "mp": "38",
+                    "w": "19",
+                    "l": "5",
+                    "d": "14",
+                    "gf": "68",
+                    "ga": "33",
+                    "gd": "35",
+                    "pts": "71"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/1200px-Liverpool_FC.svg.png",
+                    "team": "Liverpool",
+                    "mp": "38",
+                    "w": "19",
+                    "l": "9",
+                    "d": "10",
+                    "gf": "75",
+                    "ga": "47",
+                    "gd": "28",
+                    "pts": "67"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Brighton_%26_Hove_Albion_logo.svg/1200px-Brighton_%26_Hove_Albion_logo.svg.png",
+                    "team": "Brighton",
+                    "mp": "38",
+                    "w": "18",
+                    "l": "2",
+                    "d": "8",
+                    "gf": "72",
+                    "ga": "53",
+                    "gd": "19",
+                    "pts": "62"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Aston_Villa_logo.svg/1200px-Aston_Villa_logo.svg.png",
+                    "team": "Aston Villa",
+                    "mp": "38",
+                    "w": "18",
+                    "l": "13",
+                    "d": "7",
+                    "gf": "51",
+                    "ga": "46",
+                    "gd": "5",
+                    "pts": "62"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Tottenham_Hotspur.svg/1200px-Tottenham_Hotspur.svg.png",
+                    "team": "Tottenham",
+                    "mp": "38",
+                    "w": "18",
+                    "l": "14",
+                    "d": "6",
+                    "gf": "70",
+                    "ga": "63",
+                    "gd": "7",
+                    "pts": "60"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Brentford_FC_crest.svg/1200px-Brentford_FC_crest.svg.png",
+                    "team": "Brentford",
+                    "mp": "38",
+                    "w": "15",
+                    "l": "9",
+                    "d": "14",
+                    "gf": "58",
+                    "ga": "46",
+                    "gd": "12",
+                    "pts": "59"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Fulham_FC_%28shield%29.svg/1200px-Fulham_FC_%28shield%29.svg.png",
+                    "team": "Fullham",
+                    "mp": "38",
+                    "w": "15",
+                    "l": "16",
+                    "d": "7",
+                    "gf": "55",
+                    "ga": "53",
+                    "gd": "2",
+                    "pts": "52"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Crystal_Palace_FC_logo_%282022%29.svg/1200px-Crystal_Palace_FC_logo_%282022%29.svg.png",
+                    "team": "Crystal Palace",
+                    "mp": "38",
+                    "w": "11",
+                    "l": "15",
+                    "d": "12",
+                    "gf": "40",
+                    "ga": "49",
+                    "gd": "-9",
+                    "pts": "45"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/1200px-Chelsea_FC.svg.png",
+                    "team": "Chelsea",
+                    "mp": "38",
+                    "w": "11",
+                    "l": "16",
+                    "d": "11",
+                    "gf": "38",
+                    "ga": "47",
+                    "gd": "-9",
+                    "pts": "44"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/Wolverhampton_Wanderers.svg/1200px-Wolverhampton_Wanderers.svg.png",
+                    "team": "Wolves",
+                    "mp": "38",
+                    "w": "11",
+                    "l": "19",
+                    "d": "8",
+                    "gf": "31",
+                    "ga": "58",
+                    "gd": "-27",
+                    "pts": "41"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/West_Ham_United_FC_logo.svg/1200px-West_Ham_United_FC_logo.svg.png",
+                    "team": "West Ham",
+                    "mp": "38",
+                    "w": "11",
+                    "l": "20",
+                    "d": "7",
+                    "gf": "42",
+                    "ga": "55",
+                    "gd": "-13",
+                    "pts": "40"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/AFC_Bournemouth_%282013%29.svg/1200px-AFC_Bournemouth_%282013%29.svg.png",
+                    "team": "Bournemouth",
+                    "mp": "38",
+                    "w": "11",
+                    "l": "21",
+                    "d": "6",
+                    "gf": "37",
+                    "ga": "71",
+                    "gd": "-34",
+                    "pts": "39"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/Nottingham_Forest_F.C._logo.svg/1200px-Nottingham_Forest_F.C._logo.svg.png",
+                    "team": "Nottingham Forest",
+                    "mp": "38",
+                    "w": "9",
+                    "l": "18",
+                    "d": "11",
+                    "gf": "38",
+                    "ga": "68",
+                    "gd": "-30",
+                    "pts": "38"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Everton_FC_logo.svg/1200px-Everton_FC_logo.svg.png",
+                    "team": "Everton",
+                    "mp": "38",
+                    "w": "8",
+                    "l": "18",
+                    "d": "12",
+                    "gf": "34",
+                    "ga": "57",
+                    "gd": "-23",
+                    "pts": "36"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Leicester_City_crest.svg/1200px-Leicester_City_crest.svg.png",
+                    "team": "Leicester City",
+                    "mp": "38",
+                    "w": "9",
+                    "l": "22",
+                    "d": "7",
+                    "gf": "51",
+                    "ga": "68",
+                    "gd": "-17",
+                    "pts": "34"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Leeds_United_F.C._logo.svg/1200px-Leeds_United_F.C._logo.svg.png",
+                    "team": "Leeds United",
+                    "mp": "38",
+                    "w": "7",
+                    "l": "21",
+                    "d": "10",
+                    "gf": "48",
+                    "ga": "78",
+                    "gd": "-30",
+                    "pts": "31"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/FC_Southampton.svg/1200px-FC_Southampton.svg.png",
+                    "team": "Southampton",
+                    "mp": "38",
+                    "w": "6",
+                    "l": "25",
+                    "d": "7",
+                    "gf": "36",
+                    "ga": "73",
+                    "gd": "-37",
+                    "pts": "25"
+                }
+            ],    
+            "top3Goalscorers": [
+                {
+                    "name": "Erling Haaland",
+                    "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTZi214DS2tos__MHXdINFZYNfneDe3BCWDusOzaqbCmaKBykuivS_00LtcuHend0HIcViVwp1Tn1UtuDmQR9OS6ldzN-fpcCe8UQ",
+                    "club": ["Manchester City", "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png"],
+                    "nationality": ["Norway", "https://www.norden.org/sites/default/files/styles/content_size_800/public/2021-03/Flag_of_Norway.png?itok=tZeuqk6H"],
+                    "goals": 36
+                },
+                {
+                    "name": "Harry Kane",
+                    "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSX63oNwyHo7fzWLoGJKl-kf4cuxwbRn8pOLzhxrrKpjktoks5B8M4bkqPql07JGnvyjAGuCMtlTAFpYeP9XQw-lB-0rWHvdybTAg",
+                    "club": ["Tottenham", "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Tottenham_Hotspur.svg/1200px-Tottenham_Hotspur.svg.png"],
+                    "nationality": ["England", "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/1280px-Flag_of_England.svg.png"],
+                    "goals": 30
+                },
+                {
+                    "name": "Ivan Toney",
+                    "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSNbxl2RDDzyrkoj8GG_WZSonQS4NLsyyKsWqpE7xu5JpnNwS0GHsBuZZ-T0eB5zNCvexgzwE2QJOxGrB0teSQUNLSBi8OUb_1eRw",
+                    "club": ["Brentford", "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Brentford_FC_crest.svg/1200px-Brentford_FC_crest.svg.png"],
+                    "nationality": ["England", "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/1280px-Flag_of_England.svg.png"],
+                    "goals": 20
+                }
+            ],
+            "top3Assisters": [
+                {
+                    "name": "Kevin De Bruyne",
+                    "picture": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSue_h-TtVrA0a7RA5HpaU6ZYIe3EKNFztXn2MU6GgD1zSe86Mu8FWbmSwEHfiAAxACIgUD_3D0y2ipgL-bnCr8ecC0S72D4QdZbw",
+                    "club": ["Manchester City", "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png"],
+                    "nationality": ["Belgium", "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/692px-Flag_of_Belgium.svg.png"],
+                    "assists": 16
+                },
+                {
+                    "name": "Leandro Trossard",
+                    "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTmRRLPUIcxZH3NTS9A20NbuabtZD5eR695UdeI7cYbhQkUifxlYUS-6G19IfQ7I-0tR37CcNaPGmh2SJy-KXl9-Oq6t5lCqMjSYA",
+                    "club": ["Brighton", "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Brighton_%26_Hove_Albion_logo.svg/1200px-Brighton_%26_Hove_Albion_logo.svg.png"],
+                    "nationality": ["Belgium", "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/692px-Flag_of_Belgium.svg.png"],
+                    "assists": 12
+                },
+                {
+                    "name": "Mohamed Salah",
+                    "picture": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQhnC0f5Oin-hID_3pMlP7O0wMi_6UxNhv8573pj1pUOLdxQbM0GSuzwRKAcss_sMUSmODTPMMYlQy8EzV0_UMJ2nfWEWYRaSo3How",
+                    "club": ["Liverpool", "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/1200px-Liverpool_FC.svg.png"],
+                    "nationality": ["Egypt", "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/255px-Flag_of_Egypt.svg.png"],
+                    "goals": 12
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Bundesliga",
+            "logo": "https://cdn.dribbble.com/userupload/8774586/file/original-221d89b1bd28922ab98d0302464ccdca.png?resize=400x0",
+            "country": "Germany",
+            "table": [
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/1200px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png",
+                    "team": "FC Bayern Munich",
+                    "mp": "34",
+                    "w": "21",
+                    "l": "5",
+                    "d": "8",
+                    "gf": "92",
+                    "ga": "38",
+                    "gd": "54",
+                    "pts": "71"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/1200px-Borussia_Dortmund_logo.svg.png",
+                    "team": "Borussia Dortmund",
+                    "mp": "34",
+                    "w": "22",
+                    "l": "7",
+                    "d": "5",
+                    "gf": "83",
+                    "ga": "44",
+                    "gd": "39",
+                    "pts": "71"
+                }, 
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/RB_Leipzig_2014_logo.svg/1200px-RB_Leipzig_2014_logo.svg.png",
+                    "team": "RB Leipzig",
+                    "mp": "34",
+                    "w": "20",
+                    "l": "8",
+                    "d": "6",
+                    "gf": "64",
+                    "ga": "41",
+                    "gd": "23",
+                    "pts": "66"
+                }, 
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/1._FC_Union_Berlin_Logo.svg/1200px-1._FC_Union_Berlin_Logo.svg.png",
+                    "team": "Union Berlin",
+                    "mp": "34",
+                    "w": "18",
+                    "l": "8",
+                    "d": "8",
+                    "gf": "51",
+                    "ga": "38",
+                    "gd": "13",
+                    "pts": "62"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/SC_Freiburg_logo.svg/1200px-SC_Freiburg_logo.svg.png",
+                    "team": "SC Freiburg",
+                    "mp": "34",
+                    "w": "17",
+                    "l": "9",
+                    "d": "8",
+                    "gf": "51",
+                    "ga": "44",
+                    "gd": "7",
+                    "pts": "59"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Bayer_04_Leverkusen_logo.svg/1200px-Bayer_04_Leverkusen_logo.svg.png",
+                    "team": "Bayer 04 Leverkusen",
+                    "mp": "34",
+                    "w": "14",
+                    "l": "12",
+                    "d": "8",
+                    "gf": "57",
+                    "ga": "49",
+                    "gd": "8",
+                    "pts": "50"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Eintracht_Frankfurt_Logo.svg/1200px-Eintracht_Frankfurt_Logo.svg.png",
+                    "team": "Eintracht Frankfurt",
+                    "mp": "34",
+                    "w": "13",
+                    "l": "10",
+                    "d": "11",
+                    "gf": "58",
+                    "ga": "52",
+                    "gd": "6",
+                    "pts": "50"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/VfL_Wolfsburg_Logo.svg/1200px-VfL_Wolfsburg_Logo.svg.png",
+                    "team": "Wolfsburg",
+                    "mp": "34",
+                    "w": "13",
+                    "l": "11",
+                    "d": "10",
+                    "gf": "57",
+                    "ga": "48",
+                    "gd": "9",
+                    "pts": "49"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Logo_Mainz_05.svg/1200px-Logo_Mainz_05.svg.png",
+                    "team": "Mainz",
+                    "mp": "34",
+                    "w": "12",
+                    "l": "12",
+                    "d": "10",
+                    "gf": "54",
+                    "ga": "55",
+                    "gd": "-1",
+                    "pts": "46"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Borussia_M%C3%B6nchengladbach_logo.svg/1200px-Borussia_M%C3%B6nchengladbach_logo.svg.png",
+                    "team": "Monchengladbach",
+                    "mp": "34",
+                    "w": "11",
+                    "l": "13",
+                    "d": "10",
+                    "gf": "52",
+                    "ga": "55",
+                    "gd": "-3",
+                    "pts": "43"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+                    "team": "Koln",
+                    "mp": "34",
+                    "w": "10",
+                    "l": "12",
+                    "d": "12",
+                    "gf": "49",
+                    "ga": "54",
+                    "gd": "-5",
+                    "pts": "42"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Logo_TSG_Hoffenheim.svg/1200px-Logo_TSG_Hoffenheim.svg.png",
+                    "team": "Hoffenheim",
+                    "mp": "34",
+                    "w": "10",
+                    "l": "18",
+                    "d": "6",
+                    "gf": "48",
+                    "ga": "57",
+                    "gd": "-9",
+                    "pts": "36"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/SV-Werder-Bremen-Logo.svg/1200px-SV-Werder-Bremen-Logo.svg.png",
+                    "team": "Werder",
+                    "mp": "34",
+                    "w": "10",
+                    "l": "18",
+                    "d": "6",
+                    "gf": "51",
+                    "ga": "64",
+                    "gd": "-13",
+                    "pts": "36"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/VfL_Bochum_logo.svg/1945px-VfL_Bochum_logo.svg.png",
+                    "team": "VfL Bochum",
+                    "mp": "34",
+                    "w": "10",
+                    "l": "19",
+                    "d": "5",
+                    "gf": "40",
+                    "ga": "72",
+                    "gd": "-32",
+                    "pts": "35"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/FC_Augsburg_logo.svg/1200px-FC_Augsburg_logo.svg.png",
+                    "team": "Augsburg",
+                    "mp": "34",
+                    "w": "9",
+                    "l": "18",
+                    "d": "7",
+                    "gf": "42",
+                    "ga": "63",
+                    "gd": "-21",
+                    "pts": "34"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/VfB_Stuttgart_1893_Logo.svg/1200px-VfB_Stuttgart_1893_Logo.svg.png",
+                    "team": "VfB Stuttgart",
+                    "mp": "34",
+                    "w": "7",
+                    "l": "15",
+                    "d": "12",
+                    "gf": "45",
+                    "ga": "57",
+                    "gd": "-12",
+                    "pts": "33"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/FC_Schalke_04_Logo.svg/800px-FC_Schalke_04_Logo.svg.png",
+                    "team": "Schalke",
+                    "mp": "34",
+                    "w": "7",
+                    "l": "17",
+                    "d": "10",
+                    "gf": "35",
+                    "ga": "71",
+                    "gd": "-36",
+                    "pts": "31"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Hertha_BSC_Logo_2012.svg/1200px-Hertha_BSC_Logo_2012.svg.png",
+                    "team": "Hertha",
+                    "mp": "34",
+                    "w": "7",
+                    "l": "19",
+                    "d": "8",
+                    "gf": "42",
+                    "ga": "69",
+                    "gd": "-27",
+                    "pts": "29"
+                }
+            ],    
+            "top3Goalscorers": [
+                {
+                    "name": "Christopher Nkunku",
+                    "picture": "https://img.a.transfermarkt.technology/portrait/big/344381-1663686834.jpg?lm=1",
+                    "club": ["RB Leipzig", "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/RB_Leipzig_2014_logo.svg/1200px-RB_Leipzig_2014_logo.svg.png"],
+                    "nationality": ["France", "https://www.mappr.co/wp-content/uploads/2023/12/french-flag-576x384.png"],
+                    "goals": 16
+                },
+                {
+                    "name": "Niclas Fullkrug",
+                    "picture": "https://sortitoutsidospaces.b-cdn.net/megapacks/cutoutfaces/originals/2023.15/92018043.png",
+                    "club": ["SV Werder Bremen", "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/SV-Werder-Bremen-Logo.svg/1200px-SV-Werder-Bremen-Logo.svg.png"],
+                    "nationality": ["Germany", "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png"],
+                    "goals": 16
+                },
+                {
+                    "name": "Randal Kolo Muani",
+                    "picture": "https://sortitoutsidospaces.b-cdn.net/megapacks/cutoutfaces/originals/2022.13/48043873.png",
+                    "club": ["Eintracht Frankfurt", "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Eintracht_Frankfurt_Logo.svg/1200px-Eintracht_Frankfurt_Logo.svg.png"],
+                    "nationality": ["France", "https://www.mappr.co/wp-content/uploads/2023/12/french-flag-576x384.png"],
+                    "goals": 15
+                }
+            ],
+            "top3Assisters": [
+                {
+                    "name": "Raphael Guerriero",
+                    "picture": "https://b.fssta.com/uploads/application/soccer/headshots/20763.png",
+                    "club": ["Borussia Dortmund", "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/1200px-Borussia_Dortmund_logo.svg.png"],
+                    "nationality": ["Portugal", "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/255px-Flag_of_Portugal.svg.png"],
+                    "assists": 12
+                },
+                {
+                    "name": "Randal Kolo Muani",
+                    "picture": "https://sortitoutsidospaces.b-cdn.net/megapacks/cutoutfaces/originals/2022.13/48043873.png",
+                    "club": ["Eintracht Frankfurt", "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Eintracht_Frankfurt_Logo.svg/1200px-Eintracht_Frankfurt_Logo.svg.png"],
+                    "nationality": ["France", "https://www.mappr.co/wp-content/uploads/2023/12/french-flag-576x384.png"],
+                    "assists": 11
+                },
+                {
+                    "name": "Florian Kainz",
+                    "picture": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTPIUSB7MEUmO_BFQ3FAezS7a6mHG01wje4wGXdbrOG6COWjv0JgW8aBJufy9K9l8qh-smUzowny26Y83_XnB8-y0lSkecQrc8CWyA",
+                    "club": ["FC Koln", "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg"],
+                    "nationality": ["Austria", "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/255px-Flag_of_Austria.svg.png"],
+                    "goals": 10
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Ligue 1",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Ligue1_Uber_Eats_logo.png/409px-Ligue1_Uber_Eats_logo.png",
+            "country": "France",
+            "table": [
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/1200px-Paris_Saint-Germain_F.C..svg.png",
+                    "team": "Paris Saint-Germain",
+                    "mp": "38",
+                    "w": "27",
+                    "l": "7",
+                    "d": "4",
+                    "gf": "89",
+                    "ga": "40",
+                    "gd": "49",
+                    "pts": "85"
+                }, 
+                {
+                    "badge": "https://1000logos.net/wp-content/uploads/2021/05/Lens-logo.png",
+                    "team": "RC Lens",
+                    "mp": "38",
+                    "w": "25",
+                    "l": "4",
+                    "d": "9",
+                    "gf": "68",
+                    "ga": "29",
+                    "gd": "39",
+                    "pts": "84"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Olympique_Marseille_logo.svg/1200px-Olympique_Marseille_logo.svg.png",
+                    "team": "Marseille",
+                    "mp": "38",
+                    "w": "22",
+                    "l": "9",
+                    "d": "7",
+                    "gf": "67",
+                    "ga": "40",
+                    "gd": "27",
+                    "pts": "73"
+                }, 
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Stade_Rennais_FC.svg/1200px-Stade_Rennais_FC.svg.png",
+                    "team": "Rennes",
+                    "mp": "38",
+                    "w": "21",
+                    "l": "12",
+                    "d": "5",
+                    "gf": "69",
+                    "ga": "39",
+                    "gd": "30",
+                    "pts": "68"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Lille_OSC_2018_logo.svg/1200px-Lille_OSC_2018_logo.svg.png",
+                    "team": "LOSC Lille",
+                    "mp": "38",
+                    "w": "19",
+                    "l": "9",
+                    "d": "10",
+                    "gf": "65",
+                    "ga": "44",
+                    "gd": "21",
+                    "pts": "67"
+                },
+                {
+                    "badge": "https://seeklogo.com/images/A/as-monaco-fc-logo-1449AAD69E-seeklogo.com.png",
+                    "team": "Monaco",
+                    "mp": "38",
+                    "w": "19",
+                    "l": "11",
+                    "d": "8",
+                    "gf": "70",
+                    "ga": "58",
+                    "gd": "12",
+                    "pts": "65"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/1/1c/Olympique_Lyonnais_logo.svg",
+                    "team": "Lyon",
+                    "mp": "38",
+                    "w": "18",
+                    "l": "12",
+                    "d": "8",
+                    "gf": "65",
+                    "ga": "47",
+                    "gd": "18",
+                    "pts": "62"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Clermont_Foot_logo.svg/1200px-Clermont_Foot_logo.svg.png",
+                    "team": "Clermont Foot",
+                    "mp": "38",
+                    "w": "17",
+                    "l": "13",
+                    "d": "8",
+                    "gf": "45",
+                    "ga": "49",
+                    "gd": "-4",
+                    "pts": "59"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/OGC_Nice_logo.svg/1200px-OGC_Nice_logo.svg.png",
+                    "team": "OGC Nice",
+                    "mp": "38",
+                    "w": "15",
+                    "l": "10",
+                    "d": "13",
+                    "gf": "48",
+                    "ga": "37",
+                    "gd": "11",
+                    "pts": "58"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/FC_Lorient_logo.svg/1200px-FC_Lorient_logo.svg.png",
+                    "team": "Lorient",
+                    "mp": "38",
+                    "w": "15",
+                    "l": "13",
+                    "d": "10",
+                    "gf": "52",
+                    "ga": "53",
+                    "gd": "-1",
+                    "pts": "55"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/Stade_de_Reims_logo.svg/1200px-Stade_de_Reims_logo.svg.png",
+                    "team": "Reims",
+                    "mp": "38",
+                    "w": "12",
+                    "l": "11",
+                    "d": "15",
+                    "gf": "45",
+                    "ga": "45",
+                    "gd": "0",
+                    "pts": "51"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/Montpellier_HSC_logo.svg/1200px-Montpellier_HSC_logo.svg.png",
+                    "team": "Montpellier",
+                    "mp": "38",
+                    "w": "15",
+                    "l": "18",
+                    "d": "5",
+                    "gf": "65",
+                    "ga": "62",
+                    "gd": "3",
+                    "pts": "50"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Toulouse_FC_2018_logo.svg/1200px-Toulouse_FC_2018_logo.svg.png",
+                    "team": "Tolouse",
+                    "mp": "38",
+                    "w": "13",
+                    "l": "16",
+                    "d": "9",
+                    "gf": "51",
+                    "ga": "57",
+                    "gd": "-6",
+                    "pts": "48"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Stade_Brestois_29_logo.svg/1200px-Stade_Brestois_29_logo.svg.png",
+                    "team": "Brest",
+                    "mp": "38",
+                    "w": "11",
+                    "l": "16",
+                    "d": "11",
+                    "gf": "44",
+                    "ga": "54",
+                    "gd": "-10",
+                    "pts": "44"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Racing_Club_de_Strasbourg_logo.svg/1200px-Racing_Club_de_Strasbourg_logo.svg.png",
+                    "team": "Strasbourg",
+                    "mp": "38",
+                    "w": "9",
+                    "l": "16",
+                    "d": "13",
+                    "gf": "51",
+                    "ga": "59",
+                    "gd": "-8",
+                    "pts": "40"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Logo_FC_Nantes_%28avec_fond%29_-_2019.svg/1200px-Logo_FC_Nantes_%28avec_fond%29_-_2019.svg.png",
+                    "team": "Nantes",
+                    "mp": "38",
+                    "w": "7",
+                    "l": "16",
+                    "d": "15",
+                    "gf": "37",
+                    "ga": "55",
+                    "gd": "-18",
+                    "pts": "36"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/AJAuxerreLogo.svg/1200px-AJAuxerreLogo.svg.png",
+                    "team": "Auxerre",
+                    "mp": "38",
+                    "w": "8",
+                    "l": "19",
+                    "d": "13",
+                    "gf": "35",
+                    "ga": "63",
+                    "gd": "-28",
+                    "pts": "35"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/AC_Ajaccio_logo.svg/1200px-AC_Ajaccio_logo.svg.png",
+                    "team": "Ajaccio",
+                    "mp": "38",
+                    "w": "7",
+                    "l": "26",
+                    "d": "5",
+                    "gf": "23",
+                    "ga": "74",
+                    "gd": "-51",
+                    "pts": "26"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ES_Troyes_AC.svg/1200px-ES_Troyes_AC.svg.png",
+                    "team": "Troyes",
+                    "mp": "38",
+                    "w": "4",
+                    "l": "22",
+                    "d": "12",
+                    "gf": "45",
+                    "ga": "81",
+                    "gd": "-36",
+                    "pts": "24"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Angers_SCO_logo.svg/1200px-Angers_SCO_logo.svg.png",
+                    "team": "Angers",
+                    "mp": "38",
+                    "w": "4",
+                    "l": "28",
+                    "d": "6",
+                    "gf": "33",
+                    "ga": "81",
+                    "gd": "-48",
+                    "pts": "18"
+                }
+            ],    
+            "top3Goalscorers": [
+                {
+                    "name": "Kylian Mbappe",
+                    "picture": "https://b.fssta.com/uploads/application/soccer/headshots/40670.vresize.350.350.medium.91.png",
+                    "club": ["Paris Saint-Germain", "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/1200px-Paris_Saint-Germain_F.C..svg.png"],
+                    "nationality": ["France", "https://www.mappr.co/wp-content/uploads/2023/12/french-flag-576x384.png"],
+                    "goals": 29
+                },
+                {
+                    "name": "Alexandre Lacazette",
+                    "picture": "https://sortitoutsidospaces.b-cdn.net/megapacks/cutoutfaces/originals/10.11/34011687.png",
+                    "club": ["Lyon", "https://upload.wikimedia.org/wikipedia/en/1/1c/Olympique_Lyonnais_logo.svg"],
+                    "nationality": ["France", "https://www.mappr.co/wp-content/uploads/2023/12/french-flag-576x384.png"],
+                    "goals": 27
+                },
+                {
+                    "name": "Jonathan David",
+                    "picture": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSGBOcFCCTmx5sAMI6SQA5egVLUANQMgJEHK7vgIKQlCF-AS2vyI4mbDWNIpiVIbOGZtn8KsaI5vlbVYDLOMknUaBkXt1kOoX6Whw",
+                    "club": ["LOSC Lille", "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Lille_OSC_2018_logo.svg/1200px-Lille_OSC_2018_logo.svg.png"],
+                    "nationality": ["Canada", "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg"],
+                    "goals": 24
+                }
+            ],
+            "top3Assisters": [
+                {
+                    "name": "Lionel Messi",
+                    "picture": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRZn-RS1CjoDmZZM7Bb9LgWA9mkFR3lnS0UK64Mkcse4qtTFO5Z2xIjLwvO_NTVJjv8fE5mkLWwdDPj-it26KofjRoCurh1QaVlMA",
+                    "club": ["Paris Saint-Germain", "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/1200px-Paris_Saint-Germain_F.C..svg.png"],
+                    "nationality": ["Argentina", "https://cdn.britannica.com/18/147118-050-7F820ED5/flag-Argentina-2010.jpg?w=300&h=169&c=crop"],
+                    "assists": 16
+                },
+                {
+                    "name": "Neymar",
+                    "picture": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRWjPt7pkva0lOxzZcsKb0fpDiEt3JK9dYOTVbmPiiUjnWLJMY2xrfTb1zjWDWSZfSvc1hlvyYu-YtfEbGRkIF_7aFX4NuYt27V8dE",
+                    "club": ["Paris Saint-Germain", "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/1200px-Paris_Saint-Germain_F.C..svg.png"],
+                    "nationality": ["Brazil", "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/640px-Flag_of_Brazil.svg.png"],
+                    "assists": 11
+                },
+                {
+                    "name": "Benjamin Bourigeaud",
+                    "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcT2LPvBRabj3x6JHX7gv4YAQaKlutRs2jyMcNZcCjTk3lDxXm10xl0sbfSIZVIzOqYmtqvjaGKVoJ2N4QleYyWlZQypUiOyN9Pvv0w",
+                    "club": ["Rennes", "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Stade_Rennais_FC.svg/1200px-Stade_Rennais_FC.svg.png"],
+                    "nationality": ["France", "https://www.mappr.co/wp-content/uploads/2023/12/french-flag-576x384.png"],
+                    "goals": 10
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Seria A",
+            "logo": "https://1000logos.net/wp-content/uploads/2019/01/Italian-Serie-A-TIM-Logo.png",
+            "country": "Italy",
+            "table": [
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/SSC_Neapel.svg/1024px-SSC_Neapel.svg.png",
+                    "team": "Napoli",
+                    "mp": "38",
+                    "w": "28",
+                    "l": "4",
+                    "d": "6",
+                    "gf": "77",
+                    "ga": "28",
+                    "gd": "49",
+                    "pts": "90"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/S.S._Lazio_badge.svg/1200px-S.S._Lazio_badge.svg.png",
+                    "team": "Lazio",
+                    "mp": "38",
+                    "w": "22",
+                    "l": "8",
+                    "d": "8",
+                    "gf": "60",
+                    "ga": "30",
+                    "gd": "30",
+                    "pts": "74"
+                },
+                {
+                    "badge": "https://cdn.vox-cdn.com/thumbor/2fULY-8xfUKZKPV8Pt1Q1mzRzEA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22407687/09ABCFC9_621E_4190_801B_92EDE17085BD.jpeg",
+                    "team": "Inter Milan",
+                    "mp": "38",
+                    "w": "23",
+                    "l": "12",
+                    "d": "3",
+                    "gf": "71",
+                    "ga": "42",
+                    "gd": "29",
+                    "pts": "72"
+                },  
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/640px-Logo_of_AC_Milan.svg.png",
+                    "team": "AC Milan",
+                    "mp": "38",
+                    "w": "20",
+                    "l": "8",
+                    "d": "10",
+                    "gf": "64",
+                    "ga": "43",
+                    "gd": "21",
+                    "pts": "70"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/AtalantaBC.svg/1200px-AtalantaBC.svg.png",
+                    "team": "Atalanta",
+                    "mp": "38",
+                    "w": "19",
+                    "l": "9",
+                    "d": "10",
+                    "gf": "65",
+                    "ga": "44",
+                    "gd": "21",
+                    "pts": "67"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/AS_Roma_logo_%282017%29.svg/1200px-AS_Roma_logo_%282017%29.svg.png",
+                    "team": "Roma",
+                    "mp": "38",
+                    "w": "18",
+                    "l": "11",
+                    "d": "9",
+                    "gf": "50",
+                    "ga": "38",
+                    "gd": "12",
+                    "pts": "63"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Juventus_FC_2017_logo_%28white_on_black%29.svg/1200px-Juventus_FC_2017_logo_%28white_on_black%29.svg.png",
+                    "team": "Juventus",
+                    "mp": "38",
+                    "w": "22",
+                    "l": "10",
+                    "d": "6",
+                    "gf": "56",
+                    "ga": "33",
+                    "gd": "23",
+                    "pts": "62"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/2022_ACF_Fiorentina_logo.svg/1200px-2022_ACF_Fiorentina_logo.svg.png",
+                    "team": "Fiorentina",
+                    "mp": "38",
+                    "w": "15",
+                    "l": "12",
+                    "d": "11",
+                    "gf": "53",
+                    "ga": "43",
+                    "gd": "10",
+                    "pts": "56"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bologna_F.C._1909_logo.svg/1200px-Bologna_F.C._1909_logo.svg.png",
+                    "team": "Bologna",
+                    "mp": "38",
+                    "w": "14",
+                    "l": "12",
+                    "d": "12",
+                    "gf": "53",
+                    "ga": "49",
+                    "gd": "4",
+                    "pts": "54"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/Torino_FC_Logo.svg/1200px-Torino_FC_Logo.svg.png",
+                    "team": "Torino",
+                    "mp": "38",
+                    "w": "14",
+                    "l": "13",
+                    "d": "11",
+                    "gf": "42",
+                    "ga": "41",
+                    "gd": "1",
+                    "pts": "53"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/a/a7/AC_Monza_logo_%282021%29.svg",
+                    "team": "Monza",
+                    "mp": "38",
+                    "w": "14",
+                    "l": "14",
+                    "d": "10",
+                    "gf": "48",
+                    "ga": "52",
+                    "gd": "-4",
+                    "pts": "52"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Udinese_Calcio_logo.svg/1200px-Udinese_Calcio_logo.svg.png",
+                    "team": "Udinese",
+                    "mp": "38",
+                    "w": "11",
+                    "l": "14",
+                    "d": "13",
+                    "gf": "47",
+                    "ga": "48",
+                    "gd": "-1",
+                    "pts": "46"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/1200px-US_Sassuolo_Calcio_logo.svg.png",
+                    "team": "Sassuolo",
+                    "mp": "38",
+                    "w": "12",
+                    "l": "17",
+                    "d": "9",
+                    "gf": "47",
+                    "ga": "61",
+                    "gd": "-14",
+                    "pts": "45"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/e/e9/Empoli_F.C._logo_%282021%29.png",
+                    "team": "Empoli",
+                    "mp": "38",
+                    "w": "10",
+                    "l": "15",
+                    "d": "13",
+                    "gf": "37",
+                    "ga": "49",
+                    "gd": "-12",
+                    "pts": "43"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/US_Salernitana_1919_logo.svg/1200px-US_Salernitana_1919_logo.svg.png",
+                    "team": "Salernitana",
+                    "mp": "38",
+                    "w": "9",
+                    "l": "14",
+                    "d": "15",
+                    "gf": "48",
+                    "ga": "62",
+                    "gd": "-14",
+                    "pts": "42"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Us_lecce.svg/1200px-Us_lecce.svg.png",
+                    "team": "Lecce",
+                    "mp": "38",
+                    "w": "8",
+                    "l": "18",
+                    "d": "12",
+                    "gf": "33",
+                    "ga": "46",
+                    "gd": "-13",
+                    "pts": "36"
+                },
+                {
+                    "badge": "https://1000logos.net/wp-content/uploads/2022/01/Hellas-Verona-logo.png",
+                    "team": "Verona",
+                    "mp": "38",
+                    "w": "7",
+                    "l": "21",
+                    "d": "10",
+                    "gf": "31",
+                    "ga": "59",
+                    "gd": "-28",
+                    "pts": "31"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/6/6a/Spezia_Calcio_logo_%282023%29.svg",
+                    "team": "Spezia",
+                    "mp": "38",
+                    "w": "6",
+                    "l": "19",
+                    "d": "13",
+                    "gf": "31",
+                    "ga": "62",
+                    "gd": "-31",
+                    "pts": "31"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/US_Cremonese_logo.svg/1200px-US_Cremonese_logo.svg.png",
+                    "team": "Cremonese",
+                    "mp": "38",
+                    "w": "5",
+                    "l": "21",
+                    "d": "12",
+                    "gf": "36",
+                    "ga": "69",
+                    "gd": "-33",
+                    "pts": "27"
+                },
+                {
+                    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/U.C._Sampdoria_logo.svg/1200px-U.C._Sampdoria_logo.svg.png",
+                    "team": "Sampdoria",
+                    "mp": "38",
+                    "w": "3",
+                    "l": "25",
+                    "d": "10",
+                    "gf": "24",
+                    "ga": "71",
+                    "gd": "-47",
+                    "pts": "19"
+                }
+            ],
+            "top3Goalscorers": [
+                {
+                    "name": "Victor Osimhen",
+                    "picture": "https://i.goalzz.com/?i=ashrafzamrani%2Fvictor+osimhen.gif",
+                    "club": ["Napoli", "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/SSC_Neapel.svg/1024px-SSC_Neapel.svg.png"],
+                    "nationality": ["Nigeria", "https://upload.wikimedia.org/wikipedia/commons/b/b6/Flag_of_Nigeria.png"],
+                    "goals": 26
+                },
+                {
+                    "name": "Lautaro Martinez",
+                    "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSqxjC9I0oT_k6XxZvu88b_E2RUyPCiWiw338qgeHxAQlhNMqRzO7U2SbuwzRNw2Aw6YVR0r0eTZmPOd98xFJUjUUQ8ZoD7Xy27HQ",
+                    "club": ["Inter Milan", "https://cdn.vox-cdn.com/thumbor/2fULY-8xfUKZKPV8Pt1Q1mzRzEA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22407687/09ABCFC9_621E_4190_801B_92EDE17085BD.jpeg"],
+                    "nationality": ["Argentina", "https://cdn.britannica.com/18/147118-050-7F820ED5/flag-Argentina-2010.jpg?w=300&h=169&c=crop"],
+                    "goals": 16
+                },
+                {
+                    "name": "Boulaye Dia",
+                    "picture": "https://sortitoutsidospaces.b-cdn.net/media/n3I6lhsA0Yp66pt8uvwm5P7uwu3DuDPlHF4L9vc5.png",
+                    "club": ["Salernitana", "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/US_Salernitana_1919_logo.svg/1200px-US_Salernitana_1919_logo.svg.png"],
+                    "nationality": ["Senegal", "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/2560px-Flag_of_Senegal.svg.png"],
+                    "goals": 16
+                }
+            ],
+            "top3Assisters": [
+                {
+                    "name": "Khvicha Kvaratskhelia",
+                    "picture": "https://sortitoutsidospaces.b-cdn.net/media/UVfGIrDkpA7OzNvII4EvEbH76lP1Py6cz0UxpFEG.png",
+                    "club": ["Napoli", "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/SSC_Neapel.svg/1024px-SSC_Neapel.svg.png"],
+                    "nationality": ["Georgia", "https://cdn.britannica.com/17/4717-050-0B745462/Flag-Republic-of-Georgia.jpg"],
+                    "assists": 10
+                },
+                {
+                    "name": "Filip Kostic",
+                    "picture": "https://i.goalzz.com/?i=o%2Fp%2F98%2F310%2Ffilip-kostic-1.png",
+                    "club": ["Juventus", "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Juventus_FC_2017_logo_%28white_on_black%29.svg/1200px-Juventus_FC_2017_logo_%28white_on_black%29.svg.png"],
+                    "nationality": ["Serbia", "https://cdn.britannica.com/39/94839-004-EEB20F36/Flag-Serbia.jpg"],
+                    "assists": 8
+                },
+                {
+                    "name": "Musa Barrow",
+                    "picture": "https://cdn.futbin.com/content/fifa24/img/players/242374.png?v=23",
+                    "club": ["Bologna", "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bologna_F.C._1909_logo.svg/1200px-Bologna_F.C._1909_logo.svg.png"],
+                    "nationality": ["Gambia", "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_The_Gambia.svg/2560px-Flag_of_The_Gambia.svg.png"],
+                    "goals": 8
+                }
+            ]
+        }
+
+    ]
+}
