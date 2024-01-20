@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", e => {
     createLeagueDiv()
     addDropdownEventListener()
-    fetchDropdownOptionData()
-    moveBall()
+    //fetchDropdownOptionData()
+    moveBallEvent()
     mouseOverEvent()
     mouseOutEvent()
 })
@@ -65,7 +65,9 @@ function addDropdownEventListener() {
                 fetchDropdownOptionData(selectedOption)
                 break;
             default:
+                removeTableAndPlayers()
                 console.log(`I don't know you, ${selectedOption}`)
+                debugger
         }
     })
 }
@@ -73,12 +75,16 @@ function addDropdownEventListener() {
 //removes all subelements of table and stats divs
 function removeTableAndPlayers() {
     const tableDiv = document.getElementById("league-table")
-    tableDiv.removeChild(document.getElementById("table"))
-    Array.from(document.getElementsByClassName("player")).forEach(element => element.remove())
+    if (tableDiv.hasChildNodes()) {
+        tableDiv.removeChild(document.getElementById("table"))
+        Array.from(document.getElementsByClassName("player")).forEach(element => element.remove())
+    } else {
+        console.log("There are no child nodes!")
+    }
 }
 
 //fetch corresponding data to dropdown option
-function fetchDropdownOptionData(dropdownValue = 1) {
+function fetchDropdownOptionData(dropdownValue) {
     fetch(`http://127.0.0.1:3000/leagues/${dropdownValue}`)
         .then(response => response.json())
         .then(data => {
@@ -207,11 +213,12 @@ function createTableCell(name, value) {
     return tableCell
 }
 
+//variables for moveBallEvent function
 let intervalId;
 let clickCount = 0;
 
 //moves the ball
-function moveBall() {
+function moveBallEvent() {
     const button = document.getElementById("move-ball")
     button.addEventListener("click", e => {
         const ball = document.getElementById("ball")
@@ -244,11 +251,12 @@ function moveBall() {
     })
 }
 
+//asign header to h1
 const h1 = document.getElementById("title")
 
 //creates mousever event
 function mouseOverEvent() {
-    h1.addEventListener("mouseover", e => {
+    h1.addEventListener("mouseover", () => {
         h1.style.color = randomColor();
     })
 }
@@ -266,6 +274,6 @@ function randomColor () {
     let g = Math.floor(Math.random() * 256)
     let b = Math.floor(Math.random() * 256)
 
-    const color = "rgb(" + r + ", " + g + ", " + b + ")"
+    const color = `rgb(${r}, ${g}, ${b})`
     return color
 }
