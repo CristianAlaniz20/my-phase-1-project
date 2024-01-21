@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", e => {
 
 //creates league divs and fetches their info
 function createLeagueDiv() {
-    fetch("http://127.0.0.1:3000/leagues")
+    fetch("http://localhost:3000/leagues")
     .then(res => res.json())
     .then(data => {
         const leagueContainer = document.getElementById("league-container");
@@ -85,7 +85,7 @@ function removeTableAndPlayers() {
 
 //fetch corresponding data to dropdown option
 function fetchDropdownOptionData(dropdownValue) {
-    fetch(`http://127.0.0.1:3000/leagues/${dropdownValue}`)
+    fetch(`http://localhost:3000/leagues/${dropdownValue}`)
         .then(response => response.json())
         .then(data => {
             createTable(data.name)
@@ -122,11 +122,9 @@ function createPlayerCards(array, div) {
                         if (element === professional[info][0]) {
                             const clubName = element
                             playerImgP.textContent = `${info.toUpperCase()}: ${clubName}`
-                            debugger
                         } else {
                             const image = createImage("player-personal-info-image", element)
                             playerImgP.appendChild(image)
-                            debugger
                         }
                     })
                     professionalDiv.appendChild(playerImgP)
